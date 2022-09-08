@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@500&family=Open+Sans&display=swap');
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 20px;
+  background-color: #f9f3f0;
+  text-align: center;
+  padding: auto 0;
+}
+
+h1 {
+  font-family: "Ibarra Real Nova", Georgia;
+  font-size: 40px;
+  letter-spacing: 3px;
+  font-weight: strong;
+  padding: 1rem auto 0;
+  margin: 2.5em auto 0;
+}
+
+p, figcaption {
+  font-family: "Open Sans", Arial;
+  font-size: 18px;
+  line-height: 1.5em;
+  margin: 1rem auto 0;
+}
+
+hr {
+  background-color: #dbb4a6;
+  height: 3px;
+  border: none;
+  width: 600px;
+
+}
+
+h1, p, figcaption {
+  color: #408480;
+}
+
+.info > p {
+  text-align: left;
+  padding: 0 30px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#tribute-info {
+  margin: 1rem auto;
+}
+
+.info {
+  margin-top: 2em;
+  background-color: #f0e1db;
+  padding: 30px 20px 30px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+img {
+  display: block;
+}
+
+/* links */
+a {
+  color: #408480;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #dbb4a6;
+}
+
+/* portrait */
+#img-div {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#img-div figcaption {
+  font-size: 16px;
+  margin: 0 auto;
+}
+
+#image {
+  max-width: 100%;
+  width: 400px;
+  height: auto;
+  margin: 0 
+  auto;
+  padding: 1rem;
+}
+
+/* gallery */
+#gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#gallery .gallery-piece {
+  columns: 45% 2;
+  column-rule: solid black 2px;
+  width: 100%;
+  max-width: 400px;
+  margin: 10px;
+  padding: 2rem;
+}
+
+#gallery img {
+  width: 100%;
+  object-fit: cover;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#gallery .caption {
+  max-width: 400px;
+}
+
+/* navigation bar */
+ul {
+  list-style-type: none;
+  background-color: #dbb4a6; 
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin: 0 -20px;
+  float: inline-end;
+  text-align: center;
+}
+
+ul a {
+  color: white;
+}
+
+ul a:hover {
+  color: #f0e1db;
+}
+
+li {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 1em 2em;
+  font-family: "Open Sans", Arial;
+  letter-spacing: 3px;
+}

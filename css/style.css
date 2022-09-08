@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Josefin+Sans&family=PT+Serif&family=Philosopher&display=swap');
+
+/* FONTS AND TEXT STYLES */
+.fredoka-one {
+    font-family: "Fredoka One";
+    letter-spacing: 2px;
+    color: #274879;
+}
+
+.josefin-sans {
+    font-family: "Josefin Sans";
+    font-weight: bold;
+}
+
+.pt-serif {
+    font-family: "PT Serif";
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+
+.philosopher {
+    font-family: "Philosopher";
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+
+.emphasis {
+    font-weight: bolder !important;
+    padding: 2px !important;
+    color: #c7713c !important;
+}
+
+#profile-card a {
+    text-decoration: none !important;
+    color: #64a199 !important;
+    border-bottom: solid #64a199 1px;
+}
+
+nav ul a {
+    text-decoration: none !important;
+    color: #64a199 !important;
+    font-size: 15px !important;
+    letter-spacing: 3px !important;
+}
+
+nav ul a:last-of-type {
+    margin-right: 50px;
+}
+
+a:hover {
+    font-weight: bolder;
+}
+
+/*  */
+
+main {
+    padding: 30px;
+    margin-top: 100px;
+}
+
+footer {
+    background-color: #fcc87f;
+    padding: 40px;
+    width: 100%;
+    margin-top: 50px;
+    bottom: 0;
+}
+
+nav {
+    top: 0;
+    background: white;
+    padding-bottom: -10px;
+    margin: 0;
+}
+
+header {
+    height: 100%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.socials {
+    color: #274879;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.socials-txt {
+    color: #274879;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin-left: 50px;
+}
+
+
+/* PROFILE CARD */
+#profile-card {
+    position: sticky;
+    height: 80%;
+    padding: 20px;
+}
+
+.profile-card-div {
+    text-align: left;
+    margin: 50px 20px 0;
+    padding: 20px;
+    border: solid #fcc87f 2px;
+    border-radius: 15px;
+    box-shadow: #fcc87f -10px 10px 0 0;
+    border-bottom-left-radius: 0;
+}
+
+.profile-card-div ul {
+    padding: 0;
+}
+
+.profile-card-div li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.profile-card-div i {
+    padding-right: 10px;
+    color: #274879
+}
+
+.li-txt {
+    border-left: solid #274879 2px;
+    margin: 5px;
+}
+
+/* do i want this
+.profile-card-div li:hover {
+    background-color: #fcc87f;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+} */
+
+.li-txt p {
+    padding-left: 15px;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+/* PROFILE PICTURE */
+#pfp-img {
+    object-fit: cover;
+    width: 180px;
+    height: 180px;
+    display: inline-block;
+    margin: 0;
+    position: relative;
+}
+
+#pfp-name {
+    display: block;
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+    border: solid #fcc87f 2px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: #fcc87f -10px 10px 0 0;
+}
+
+#pfp-title {
+    text-align: left;
+    font-size: 15px;
+    float: inline-end;
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+/* ALBUM */
+.album img {
+    width: 100%;
+    object-fit: contain;
+}

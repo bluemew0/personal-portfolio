@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" type="text/css" href="styles.css"/>
+  <title>Survey Form</title>
+</head>
+<body>
+  <header>
+    <h1 id="title">Survey Form</h1>
+    <p class="normal-text">Thank you for providing feedback so we can continue to improve.</p>
+  </header>
+  <main>
+    <a href="../../index.html"><img id="home-button" src=../../img/home.png width="50"></a>
+    <form id="survey-form">
+        <label>
+          Please enter your name: 
+          <input 
+            id="name" 
+            class="normal-text" 
+            type="text" 
+            placeholder="Your Name" 
+            required 
+          />
+        </label>
+        <label>
+          Please enter your email: 
+          <input 
+            id="email" 
+            class="normal-text" 
+            type="email" 
+            placeholder="youremail@mail.com" 
+            required 
+          />
+        </label>
+        <label> 
+          Please rate your experience:
+          <input 
+            id="number" 
+            class="normal-text" 
+            type="number" 
+            min="1" max="10" 
+            placeholder="10" 
+            required 
+          />
+        </label>
+        <p>How did you hear about us?</p>
+        <label>
+          <select class="normal-text" name="reference" id="dropdown">
+            <option value="">Select one</option>
+            <option value="online-forum">Online forum</option>
+            <option value="friend">Friend or acqquaintance</option>
+            <option value="other">Other</option>
+          </select>
+        </label>
+        <p class="label">How likely are you to recommend us?</p>
+        <label class="normal-text" id="recommend">
+          <input 
+            class="inline" 
+            type="radio" 
+            name="recommend" 
+            value="very-likely"
+          /> Very likely
+        </label>
+        <label class="normal-text" id="recommend">
+          <input 
+            class="inline" 
+            type="radio" 
+            name="recommend"
+            value="unsure"
+          /> Unsure
+        </label>
+        <label class="normal-text" id="recommend">
+          <input 
+            class="inline" 
+            type="radio" 
+            name="recommend"
+            value="unlikely"
+          /> Unlikely
+        </label>
+        <br>
+        <label class="label">If not, can you provide a reason why:
+          <textarea cols="50" rows="4"></textarea>
+        </label>
+        <p class="label">What would you like to see improved?</p>
+        <label class="normal-text" id="improvement">
+          <input 
+            class="inline" 
+            type="checkbox" 
+            name="improvement"
+            value="customer-service"
+          /> Customer service
+        </label>
+        <label class="normal-text" id="improvement">
+          <input
+            class="inline" 
+            type="checkbox" 
+            name="improvement"
+            value="efficiency"
+          /> Efficiency
+        </label>
+        <label class="normal-text" id="improvement">
+          <input 
+            class="inline" 
+            type="checkbox" 
+            name="improvement"
+            value="accessibility"
+          /> Accessibility
+        </label>
+        <label class="normal-text" id="improvement">
+          <input 
+            class="inline" 
+            type="checkbox" 
+            name="improvement"
+            value="inclusivity"
+          /> Inclusivity
+        </label>
+        <label class="normal-text" id="improvement">
+          <input 
+            class="inline" 
+            type="checkbox" 
+            name="improvement"
+            value="environment"
+          /> Environment
+        </label>
+        <p class="label">Any additional comments?</p>
+        <textarea class="normal-text" cols="50" rows="4"></textarea>
+
+
+      <button class="normal-text" id="submit" type="submit">Submit</button>
+    </form>
+  </main>
+</body>
+</html>
