@@ -1,13 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Josefin+Sans&family=PT+Serif&family=Philosopher&display=swap');
 
-figure {
-    border: solid #fcc87f 20px;
-    border-radius: 10px;
-    border-bottom: 80px;
-    background-color: transparent;
+main {
+    padding: 20px 300px;
 }
 
-img {
-    height: 500px;
+.description {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+/* PORTRAIT */
+#portrait {
+    border: solid #fcc87f 3px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: #fcc87f -10px 10px 0 0;
+}
+
+#portrait figure {
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+/* #portrait figcaption {
+    font-weight: normal;
+    padding: 20px;
+    padding-bottom: 10px;
+    color: #274879;
+    font-size: 12px;
+} */
+
+#portrait img {
+    width: 100%;
     margin: 0;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 992px) {
+    header a {
+        width: 0;
+        display: inline;
+    }
+    #portrait {
+        padding: 10px;
+        height: 300px;
+    }
+
+    .description {
+        margin: 0;
+    }
+
+    .row {
+        margin: 0;
+    }
+
+    .container {
+        padding: 0;
+    }
 }

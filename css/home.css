@@ -22,7 +22,6 @@
 }
 
 .profile-card-div li {
-    list-style-type: none;
     padding: 5px;
 }
 
@@ -74,6 +73,7 @@
     margin-top: 20px;
     padding: 20px;
     width: 100%;
+    font-size: 25px;
     border: solid #fcc87f 2px;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
