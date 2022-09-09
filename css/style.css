@@ -37,18 +37,31 @@
 }
 
 nav ul a {
-    text-decoration: none !important;
-    color: #64a199 !important;
-    font-size: 15px !important;
-    letter-spacing: 3px !important;
+    text-decoration: none;
+    color: #274879;
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-weight: normal;
+    margin: 5px;
 }
 
-nav ul a:last-of-type {
+nav ul li:last-of-type {
     margin-right: 50px;
 }
 
 a:hover {
-    font-weight: bolder;
+    color: #64a199 !important;
+}
+
+.socials-txt {
+    color: #274879;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin-left: 50px;
 }
 
 /*  */
@@ -66,117 +79,41 @@ footer {
     bottom: 0;
 }
 
-nav {
-    top: 0;
-    background: white;
-    padding-bottom: -10px;
-    margin: 0;
-}
-
-header {
-    height: 100%;
-    padding-bottom: 0;
-    margin-bottom: 0;
-}
-
 .socials {
     color: #274879;
     font-size: 30px;
     margin: 10px;
 }
 
-.socials-txt {
-    color: #274879;
+/* NAV BAR */
+nav {
+    background: white;
+    padding-bottom: 0;
+    border: none;
+    margin-bottom: 0;
 }
 
-header a {
-    text-decoration: none;
-    font-size: 30px;
-    letter-spacing: 5px;
-    margin-left: 50px;
+header {
+    margin-bottom: 0;
 }
 
-
-/* PROFILE CARD */
-#profile-card {
-    position: sticky;
-    height: 80%;
-    padding: 20px;
-}
-
-.profile-card-div {
-    text-align: left;
-    margin: 50px 20px 0;
-    padding: 20px;
-    border: solid #fcc87f 2px;
-    border-radius: 15px;
-    box-shadow: #fcc87f -10px 10px 0 0;
-    border-bottom-left-radius: 0;
-}
-
-.profile-card-div ul {
-    padding: 0;
-}
-
-.profile-card-div li {
-    list-style-type: none;
-    padding: 5px;
-}
-
-.profile-card-div i {
-    padding-right: 10px;
-    color: #274879
-}
-
-.li-txt {
-    border-left: solid #274879 2px;
-    margin: 5px;
-}
-
-/* do i want this
-.profile-card-div li:hover {
-    background-color: #fcc87f;
-    border-radius: 10px;
-    border-bottom-left-radius: 0;
-} */
-
-.li-txt p {
-    padding-left: 15px;
-    font-size: 13px;
-    font-weight: normal;
-}
-
-/* PROFILE PICTURE */
-#pfp-img {
-    object-fit: cover;
-    width: 180px;
-    height: 180px;
-    display: inline-block;
-    margin: 0;
-    position: relative;
-}
-
-#pfp-name {
+.line-animation::after {
+    content: '';
     display: block;
-    margin-top: 20px;
-    padding: 20px;
+    background: #a1e3df;
+    border-bottom: solid 2px #a1e3df;
     width: 100%;
-    border: solid #fcc87f 2px;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-    box-shadow: #fcc87f -10px 10px 0 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
 }
 
-#pfp-title {
-    text-align: left;
-    font-size: 15px;
-    float: inline-end;
-    margin-top: 20px;
-    line-height: 25px;
+.line-animation:hover::after {
+    transform: scaleX(1);
 }
 
-/* ALBUM */
-.album img {
-    width: 100%;
-    object-fit: contain;
+nav li {
+    padding-right: 0;
+    margin: 10px;
 }
+

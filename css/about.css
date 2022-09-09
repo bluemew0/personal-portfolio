@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Josefin+Sans&family=PT+Serif&family=Philosopher&display=swap');
+
+figure {
+    border: solid #fcc87f 20px;
+    border-radius: 10px;
+    border-bottom: 80px;
+    background-color: transparent;
+}
+
+img {
+    height: 500px;
+    margin: 0;
+}

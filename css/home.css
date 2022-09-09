@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Josefin+Sans&family=PT+Serif&family=Philosopher&display=swap');
+
+/* PROFILE CARD */
+#profile-card {
+    position: sticky;
+    height: 80%;
+    padding: 20px;
+}
+
+.profile-card-div {
+    text-align: left;
+    margin: 50px 20px 0;
+    padding: 20px;
+    border: solid #fcc87f 2px;
+    border-radius: 15px;
+    box-shadow: #fcc87f -10px 10px 0 0;
+    border-bottom-left-radius: 0;
+}
+
+.profile-card-div ul {
+    padding: 0;
+}
+
+.profile-card-div li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.profile-card-div i {
+    padding-right: 10px;
+    color: #274879
+}
+
+.profile-card-div h3 {
+    display: inline-block;
+}
+
+.li-txt {
+    border-left: solid #274879 2px;
+    margin: 5px;
+}
+
+.profile-card-div li:hover {
+    background-color: #fcc87f;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+}
+
+.li-txt p {
+    padding-left: 15px;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.collapse-btn {
+    display: inline-block;
+    border: none;
+    background-color: transparent;
+    
+}
+
+/* PROFILE PICTURE */
+#pfp-img {
+    object-fit: cover;
+    width: 180px;
+    height: 180px;
+    display: inline-block;
+    margin: 0;
+    position: relative;
+}
+
+#pfp-name {
+    display: block;
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+    border: solid #fcc87f 2px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: #fcc87f -10px 10px 0 0;
+}
+
+#pfp-title {
+    text-align: left;
+    font-size: 15px;
+    float: inline-end;
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+/* ALBUM */
+.album img {
+    width: 100%;
+    object-fit: contain;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 992px) {
+    #pfp {
+        display: block;
+    }
+    #pfp-name {
+        display: block;
+        margin: 20px auto;
+    }
+    #pfp-title {
+        display: block;
+        margin: 20px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+}

@@ -2,8 +2,10 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/home.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Home Page</title>
@@ -14,12 +16,12 @@
                 <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
                     <a class="fredoka-one" href="">LUASHH</a>
 
-                    <ul class="nav col-12 col-md-auto mb-2 justify-content-end">
-                        <li><a href="#" class="fredoka-one">Home</a></li>
-                        <li><a href="#" class="fredoka-one">About</a></li>
-                        <li><a href="#" class="fredoka-one">Projects</a></li>
-                        <li><a href="#" class="fredoka-one">Works</a></li>
-                        <li><a href="#" class="fredoka-one">Contact</a></li>
+                    <ul class="nav col-12 col-md-auto justify-content-end">
+                        <li><span class="line-animation"><a href="" class="fredoka-one">Home</a></span></li>
+                        <li><span class="line-animation"><a href="/pages/about/index.html" class="fredoka-one">About</a></span></li>
+                        <li><span class="line-animation"><a href="#" class="fredoka-one">Projects</a></span></li>
+                        <li><span class="line-animation"><a href="#" class="fredoka-one">Works</a></span></li>
+                        <li><span class="line-animation"><a href="#" class="fredoka-one">Contact</a></span></li>
                     </ul>
                 </header>
             </div>
@@ -38,36 +40,43 @@
                             </div>
                         </div>
                        <div id="skills" class="profile-card-div">
-                            <h3 class="fredoka-one">SKILLS</h3>
-                            <ul>
+                            <h3 class="fredoka-one">SKILLS</h3><button class="collapse-btn" type="button" data-bs-toggle="collapse" data-bs-target="#skills-collapse" aria-expanded="false" aria-controls="skills-collapse"><i class="bi bi-caret-down-fill"></i></button>
+                            <ul class="collapse.show" id="skills-collapse">
                                 <li>
-                                    <i class="bi bi-balloon-fill"></i><span class="pt-serif">Digital Art (5+ years)</span>
+                                    <i class="bi bi-balloon-fill"></i><span class="pt-serif">Digital Art</span>
                                     <div class="li-txt">
                                         <p class="pt-serif">Created illustrations in Clip Studio Paint. Made art assets for games.</p>
                                     </div>
                                 </li>
                                 <li>
-                                    <i class="bi bi-balloon-fill"></i><span class="pt-serif">HTML, CSS, JavaScript (2 years)</span>
+                                    <i class="bi bi-balloon-fill"></i><span class="pt-serif">Responsive Web Design</span>
                                     <div class="li-txt">
-                                        <p class="pt-serif">Created websites for games that I've been a part of and currently furthering my web design knowledge.</p>
-                                    </div></li>
-                                <li>
-                                    <i class="bi bi-balloon-fill"></i><span class="pt-serif">Python (1 year)</span>
-                                    <div class="li-txt">
-                                        <p class="pt-serif">Introductory Python knowledge. Replace</p>
+                                        <p class="pt-serif">Currently learning about responsive web design and studying HTML, CSS, and JavaScript to create and design websites. Currently working with Bootstrap.</p>
                                     </div>
                                 </li>
                                 <li>
-                                    <i class="bi bi-balloon-fill"></i><span class="pt-serif">Photoshop, Illustrator, After Effects</span>
+                                    <i class="bi bi-balloon-fill"></i><span class="pt-serif">HTML, CSS, JavaScript, Python</span>
                                     <div class="li-txt">
-                                        <p class="pt-serif">Basic understanding of how to use these programs and have made projects with each.</p>
+                                        <p class="pt-serif">Used HTML, CSS, and JavaScript to create websites. Used JavaScript to code games using JS framework Phaser.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <i class="bi bi-balloon-fill"></i><span class="pt-serif">Adobe Photoshop, Illustrator & After Effects</span>
+                                    <div class="li-txt">
+                                        <p class="pt-serif">Used these programs to make illustrations, logos, designs, and animations.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <i class="bi bi-balloon-fill"></i><span class="pt-serif">3D Modeling and Animation</span>
+                                    <div class="li-txt">
+                                        <p class="pt-serif">Used Blender to model simple characters and animate them.</p>
                                     </div>
                                 </li>
                             </ul>
                        </div>
                        <div id="experience" class="profile-card-div">
-                            <h3 class="fredoka-one">EXPERIENCE</h3>
-                            <ul>
+                            <h3 class="fredoka-one">EXPERIENCE</h3><button class="collapse-btn" type="button" data-bs-toggle="collapse" data-bs-target="#exp-collapse" aria-expanded="false" aria-controls="exp-collapse"><i class="bi bi-caret-down-fill"></i></button>
+                            <ul class="collapse" id="exp-collapse">
                                 <li>
                                     <i class="bi bi-balloon-fill"></i><span class="pt-serif">Love Heist Romeo (Senior Capstone Game)</span>
                                     <div class="li-txt">
@@ -95,7 +104,7 @@
                                     <i class="bi bi-balloon-fill"></i><span class="pt-serif">Doorway Effect (Browser Game)</span>
                                     <div class="li-txt">
                                         <p class="pt-serif">Fulfilled the roles of <span class="emphasis">artist, art director, and side programmer</span>. Responsible for all art assets, title screen and end screen programming, and website creation and styling. Used JavaScript framework Phaser.</p>
-                                        <p class="pt-serif">You can play the game here and here.</p>
+                                        <p class="pt-serif">You can play the game <a target="_blank" href="https://bluemew0.itch.io/doorway-effect">here</a> and <a target="_blank" href="https://spandemic.github.io/TheDoorwayEffect/">here</a>.</p>
                                         <p class="pt-serif">You can find my specific contributions <a target="_blank" href="">here</a>.</p>
                                     </div>
                                 </li>
@@ -117,6 +126,7 @@
                                 </div>
                             </div>
                         </div>
+                        <h1 class="fredoka-one">WORKS</h1>
                     </div>
                 </div>
                 
