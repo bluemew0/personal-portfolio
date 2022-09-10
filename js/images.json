@@ -51,5 +51,16 @@
         "bw-5",
         "bw-6",
         "bw-7"
+    ],
+    "designs": [
+        "redesign-01",
+        "redesign-02",
+        "redesign-03",
+        "redesign-04",
+        "redesign-05",
+        "redesign-06",
+        "concert-poster",
+        "doodle-4-google",
+        "imagine-dragons"
     ]
 }
