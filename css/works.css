@@ -62,8 +62,14 @@ p {
 } */
 
 /* MEDIA QUERIES */
+@media (max-width: 1400px) {
+    #page-nav li a {
+        font-size: 15px;
+    }
+}
+
 @media (max-width: 768px) {
     #galleries {
-        margin-left: 0;
+        margin-left: 40px;
     }
 }

@@ -3,8 +3,9 @@
 // Author: Ashley Lu
 // Created: 09.09.2022
 
-// code source: https://www.tutorialspoint.com/how-to-import-local-json-file-data-to-my-javascript-variable
-fetch("../js/images.json")
+// code references: https://www.tutorialspoint.com/how-to-import-local-json-file-data-to-my-javascript-variable
+// https://css-tricks.com/creating-a-modal-image-gallery-with-bootstrap-components/#top-of-site
+fetch("../js/works.json")
 .then(response => {
     return response.json();
 })
@@ -17,7 +18,7 @@ fetch("../js/images.json")
 function createGalleryImgs(imgJSON) {
     for (let gallery in imgJSON) {
         var index = 0; // to help keep track of gallery image indexes
-        var divEl = $("#"+gallery+"");
+        var divEl = $("#"+gallery+"-gallery");
         for (let image of imgJSON[gallery]) {
             divEl.append("<div class='col-12 col-sm-6 col-md-3 col-lg-2'><img class='w-100' src='../img/artwork/"+gallery+"/"+image+".jpg' data-bs-target='#"+gallery+"-carousel' data-bs-slide-to='"+index+"'></div>");
             index += 1;
