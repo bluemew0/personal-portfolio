@@ -1,21 +1,359 @@
 {
     "love-heist-romeo": [
         {
-            "image": "name",
-            "caption": "caption"
+            "image": "progress-1.jpg",
+            "caption": ""
+        },
+        {
+            "image": "progress-2.jpg",
+            "caption": ""
+        },
+        {
+            "image": "progress-3.jpg",
+            "caption": ""
+        },
+        {
+            "image": "banner.jpg",
+            "caption": "Banner for the game"
+        },
+        {
+            "image": "icon.jpg",
+            "caption": "Icon for the game"
+        },
+        {
+            "image": "romeo-and-chair.jpg",
+            "caption": "Fanart of Romeo in a Boutique fitting room"
+        },
+        {
+            "image": "og-boat-draft.png",
+            "caption": "Draft for the first iteration of the boat"
+        },
+        {
+            "image": "og-boat.png",
+            "caption": "Final for the first iteration of the boat"
+        },
+        {
+            "image": "boat-draft.jpg",
+            "caption": "Draft for the final iteration of the boat"
+        },
+        {
+            "image": "boat.png",
+            "caption": "Final for the final iteration of the boat"
+        },
+        {
+            "image": "steering-wheel.png",
+            "caption": "Steering wheel for the boat"
+        },
+        {
+            "image": "barrels.png",
+            "caption": "Refined barrels for the boat"
+        },
+        {
+            "image": "lifesaver.png",
+            "caption": "Refined lifesaver for the boat"
+        },
+        {
+            "image": "underwater-entrance.png",
+            "caption": "Underwater entrance to underwater town"
+        },
+        {
+            "image": "underwater-town.png",
+            "caption": "Underwater town environment base"
+        },
+        {
+            "image": "house-yellow.png",
+            "caption": "One of the refined house iterations for the underwater town"
+        },
+        {
+            "image": "cave-draft.jpg",
+            "caption": "Draft for the cave area"
+        },
+        {
+            "image": "cave.png",
+            "caption": "Final cave area environment base"
+        },
+        {
+            "image": "boutique-draft.jpg",
+            "caption": "Color options for the boutique"
+        },
+        {
+            "image": "boutique.png",
+            "caption": "Boutique floor environment base"
+        },
+        {
+            "image": "fitting-room.png",
+            "caption": "Fitting room for the boutique"
+        },
+        {
+            "image": "clothes-rack.png",
+            "caption": "Refined clothes rack for the boutique"
+        },
+        {
+            "image": "cashier.png",
+            "caption": "Refined cashier counter for the boutique"
+        },
+        {
+            "image": "garden.png",
+            "caption": "Rose garden environment base"
+        },
+        {
+            "image": "tea-party.png",
+            "caption": "Tea party area environment base"
+        },
+        {
+            "image": "mansion-draft.jpg",
+            "caption": "Draft for the mansion"
+        },
+        {
+            "image": "mansion.png",
+            "caption": "Final mansion environment base"
+        },
+        {
+            "image": "skatepark-draft.jpg",
+            "caption": "Color options for the skate park"
+        },
+        {
+            "image": "skatepark.png",
+            "caption": "Final skate park environment base"
+        },
+        {
+            "image": "river-draft.jpg",
+            "caption": "Color options for the Paint River"
+        },
+        {
+            "image": "river.png",
+            "caption": "Final Paint River environment base"
+        },
+        {
+            "image": "loner-lounge-draft.jpg",
+            "caption": "Draft for the Loner Lounge"
+        },
+        {
+            "image": "loner-lounge.png",
+            "caption": "Final Loner Lounge environment base"
+        },
+        {
+            "image": "loner-lounge-bottles.jpg",
+            "caption": "Bottles for the Loner Lounge"
+        },
+        {
+            "image": "blackmarket-draft.jpg",
+            "caption": "Color options for the Black Market"
+        },
+        {
+            "image": "blackmarket.png",
+            "caption": "Final Black Market environment base"
+        },
+        {
+            "image": "vinny-statue.png",
+            "caption": "Vinny statue for the Black Market"
+        },
+        {
+            "image": "tent.png",
+            "caption": "One of the refined tent iterations for the Black Market"
+        },
+        {
+            "image": "drink-stand.png",
+            "caption": "One of the refined drink stand iterations for the Black Market"
+        },
+        {
+            "image": "gallery.png",
+            "caption": "Art gallery environment base"
+        },
+        {
+            "image": "gallery-tile.jpg",
+            "caption": "Tile for the Art Gallery"
+        },
+        {
+            "image": "seaweed.png",
+            "caption": "Refined seaweed decor for Overworld"
+        },
+        {
+            "image": "flowers.png",
+            "caption": "Refined flowers decor for Overworld"
+        },
+        {
+            "image": "sc-1.png",
+            "caption": "Tree and seaweed decor in Overworld"
+        },
+        {
+            "image": "sc-2.png",
+            "caption": "Flower decor in Overworld"
+        },
+        {
+            "image": "sc-3.png",
+            "caption": "Boat"
+        },
+        {
+            "image": "sc-4.png",
+            "caption": "Underwater town"
+        },
+        {
+            "image": "sc-5.png",
+            "caption": "Boutique"
+        },
+        {
+            "image": "sc-6.png",
+            "caption": "Tea Party"
+        },
+        {
+            "image": "sc-7.png",
+            "caption": "Rose Garden"
+        },
+        {
+            "image": "sc-8.png",
+            "caption": "Mansion bottom"
+        },
+        {
+            "image": "sc-9.png",
+            "caption": "Mansion top"
+        },
+        {
+            "image": "sc-10.png",
+            "caption": "Skate park"
+        },
+        {
+            "image": "sc-11.png",
+            "caption": "Paint River"
+        },
+        {
+            "image": "sc-12.png",
+            "caption": "Paint River 2"
+        },
+        {
+            "image": "sc-13.png",
+            "caption": "Loner Lounge"
+        },
+        {
+            "image": "sc-14.png",
+            "caption": "Loner Lounge 2"
+        },
+        {
+            "image": "sc-15.png",
+            "caption": "Black Market"
+        },
+        {
+            "image": "sc-16.png",
+            "caption": "Entrance of Art Gallery"
+        },
+        {
+            "image": "sc-17.png",
+            "caption": "Art Gallery"
         }
-
     ],
     "modded-rocket-patrol": [
         
     ],
-    "fragment-of-you":[
+    "fragments-of-you":[
+        {
+            "image": "moodboard.jpg",
+            "caption": "My notes over the moodboard defined by senior team in top left"
+        },
+        {
+            "image": "environment-concepts.png",
+            "caption": "Background concepts"
+        },
+        {
+            "image": "bg1-concept.jpg",
+            "caption": "Background (BG) 1 concept"
+        },
+        {
+            "image": "bg1-wip.png",
+            "caption": "BG 1 draft"
+        },
+        {
+            "image": "bg1.gif",
+            "caption": "Final animated BG 1"
+        },
+        {
+            "image": "bg2-concept.jpg",
+            "caption": "BG 2 concept"
+        },
+        {
+            "image": "bg2-wip.png",
+            "caption": "BG 2 draft"
+        },
+        {
+            "image": "bg2.gif",
+            "caption": "Final animated BG 2"
+        },
+        {
+            "image": "bg3-concept.jpg",
+            "caption": "BG 3 concept"
+        },
+        {
+            "image": "bg3-wip.png",
+            "caption": "BG 3 draft"
+        },
+        {
+            "image": "bg3.gif",
+            "caption": "Final animated BG 3"
+        },
+        {
+            "image": "level-select-map.png",
+            "caption": "Background for level selection"
+        }
         
     ],
     "doorway-effect": [
         
     ],
     "heart-breakout": [
-        
+        {
+            "image": "cutscene.png",
+            "caption": "Cover for the game"
+        },
+        {
+            "image": "moodboard.jpg",
+            "caption": "Moodboard by me"
+        },
+        {
+            "image": "andy-moodboard.png",
+            "caption": "Moodboard by Andy"
+        },
+        {
+            "image": "runner-concepts.jpg",
+            "caption": "Initial runner concepts"
+        },
+        {
+            "image": "obstacle-concepts.jpg",
+            "caption": "Concepts for the obstacles"
+        },
+        {
+            "image": "environment-concepts.jpg",
+            "caption": "Concepts for the environment"
+        },
+        {
+            "image": "concepts.jpg",
+            "caption": "Testing out runner concepts on environment concepts"
+        },
+        {
+            "image": "running.gif",
+            "caption": "Runner animation"
+        },
+        {
+            "image": "lover.gif",
+            "caption": "Lover animation"
+        },
+        {
+            "image": "bouquet.png",
+            "caption": "Bouquet obstacle"
+        },
+        {
+            "image": "heartSpikes.png",
+            "caption": "Heart spikes obstacle"
+        },
+        {
+            "image": "speedBox.png",
+            "caption": "Speedbox"
+        },
+        {
+            "image": "gameover.png",
+            "caption": "Game Over UI box"
+        },
+        {
+            "image": "scorebox.png",
+            "caption": "Scorebox UI"
+        }
     ]
 }

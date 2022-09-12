@@ -57,10 +57,23 @@ p {
     padding: 0 auto;
 }
 
-/* .gallery iframe {
-    width: 150px;
-    height: 150px;
-} */
+.carousel-caption {
+    background-color: rgba(100, 100, 100, 0.5);
+    border-radius: 10px;
+    padding: 2px !important;
+}
+
+.carousel-caption p {
+    color: white;
+    font-size: 12px;
+    padding: 0;
+    font-weight: normal;
+}
+
+#galleries a {
+    text-decoration: none;
+    color: #64a199;
+}
 
 /* MEDIA QUERIES */
 @media (max-width: 1400px) {
