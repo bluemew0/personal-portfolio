@@ -5,7 +5,7 @@
 
 // code references: https://www.tutorialspoint.com/how-to-import-local-json-file-data-to-my-javascript-variable
 // https://css-tricks.com/creating-a-modal-image-gallery-with-bootstrap-components/#top-of-site
-fetch("portfolio/js/projects.json")
+fetch("../js/projects.json")
 .then(response => {
     return response.json();
 })
