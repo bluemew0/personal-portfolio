@@ -316,16 +316,20 @@
             "caption": "Initial runner concepts"
         },
         {
-            "image": "obstacle-concepts.jpg",
-            "caption": "Concepts for the obstacles"
-        },
-        {
             "image": "environment-concepts.jpg",
             "caption": "Concepts for the environment"
         },
         {
             "image": "concepts.jpg",
             "caption": "Testing out runner concepts on environment concepts"
+        },
+        {
+            "image": "obstacle-concepts.jpg",
+            "caption": "Concepts for the obstacles"
+        },
+        {
+            "image": "lover-concepts.jpg",
+            "caption": "Concepts for the obstacles"
         },
         {
             "image": "running.gif",
