@@ -241,8 +241,39 @@
             "caption": "Art Gallery"
         }
     ],
-    "modded-rocket-patrol": [
-        
+    "modded-rp": [
+        {
+            "image": "title-screen.jpg",
+            "caption": "Title screen for my modded Rocket Patrol"
+        },
+        {
+            "image": "gameplay.jpg",
+            "caption": "Gameplay screenshot"
+        },
+        {
+            "image": "starfield.png",
+            "caption": "Starfield background for the game"
+        },
+        {
+            "image": "title.png",
+            "caption": "Title logo for the game"
+        },
+        {
+            "image": "rocket.png",
+            "caption": "Player rocket asset"
+        },
+        {
+            "image": "spaceship.png",
+            "caption": "Enemy spaceship asset"
+        },
+        {
+            "image": "speedship.png",
+            "caption": "New enemy speedship asset"
+        },
+        {
+            "image": "explosion.gif",
+            "caption": "Explosion animation"
+        }
     ],
     "fragments-of-you":[
         {
@@ -296,7 +327,46 @@
         
     ],
     "doorway-effect": [
-        
+        {
+            "image": "character-concepts.jpg",
+            "caption": "Character concepts"
+        },
+        {
+            "image": "lethe-atlas.png",
+            "caption": "Animation atlas for lethe"
+        },
+        {
+            "image": "storyboards.jpg",
+            "caption": "Thumbnails for different screens in the game"
+        },
+        {
+            "image": "moodboard.jpg",
+            "caption": "Moodboard/style study"
+        },
+        {
+            "image": "tileset-64.png",
+            "caption": "Tile set for the game"
+        },
+        {
+            "image": "tilemap.png",
+            "caption": "Tile map for the game"
+        },
+        {
+            "image": "title-screen.png",
+            "caption": "Title screen for the game"
+        },
+        {
+            "image": "intro-screen.png",
+            "caption": "Intro scene for the game"
+        },
+        {
+            "image": "gameplay.png",
+            "caption": "Example gameplay"
+        },
+        {
+            "image": "result-screen.png",
+            "caption": "End game/results scene for the game"
+        }
     ],
     "heart-breakout": [
         {

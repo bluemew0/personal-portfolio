@@ -110,9 +110,3 @@ body {
     margin-bottom: 0;
     padding: 0;
   }
-
-  #home-button {
-    position: fixed;
-    right: 30px;
-    bottom: 30px;
-  }

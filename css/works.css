@@ -19,6 +19,7 @@ p {
 #page-nav li {
     border: solid 3px #fcc87f;
     border-radius: 30px;
+    background-color: white;
     padding: 5px 20px;
     margin: 20px auto; 
     box-shadow: #fcc87f -5px 5px 0 0;
@@ -31,7 +32,7 @@ p {
 #page-nav li a {
     color: #c7713c;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 #page-nav li a:hover {
@@ -40,7 +41,7 @@ p {
 
 /* GALLERY */
 #galleries {
-    margin-left: calc(100vw*.16);
+    margin-left: calc(100vw*.17);
 }
 
 .gallery {
@@ -56,10 +57,41 @@ p {
     padding: 0 auto;
 }
 
-/* .gallery iframe {
-    width: 150px;
-    height: 150px;
-} */
+/* WEBSITE LIST */
+#website-list i {
+    padding: 0 10px;
+    color: #274879
+}
+
+#website-list .gallery {
+    margin-bottom: 10px;
+    margin-left: 15px !important;
+    padding: 10px;
+}
+
+#website-list a {
+    text-decoration: none;
+    color: #c7713c;
+}
+
+#website-list img{
+    cursor: auto;
+    padding: 20px !important;
+}
+
+#website-list .row img {
+    display: inline;
+    width: 525px;
+    padding: 0 !important;
+}
+
+#website-list p {
+    padding: 0 10px;
+}
+
+#website-list li {
+    margin-bottom: 20px;
+}
 
 /* MEDIA QUERIES */
 @media (max-width: 1400px) {

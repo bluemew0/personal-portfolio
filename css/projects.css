@@ -10,7 +10,7 @@ p {
 #page-nav {
     left: 0;
     position: fixed;
-    width: 15%;
+    width: 18%;
     height: 100vh;
     margin: 0 10px;
     text-align: left;
@@ -18,6 +18,7 @@ p {
 
 #page-nav li {
     border: solid 3px #fcc87f;
+    background-color: white;
     border-radius: 30px;
     padding: 5px 20px;
     margin: 20px auto; 
@@ -31,7 +32,7 @@ p {
 #page-nav li a {
     color: #c7713c;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 #page-nav li a:hover {
@@ -40,8 +41,8 @@ p {
 
 /* GALLERY */
 #galleries {
-    margin-left: calc(100vw*.20);
-    padding-right: 15%;
+    margin-left: calc(100vw*.23);
+    padding-right: 5%;
 }
 
 .gallery {
