@@ -1,0 +1,64 @@
+main {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 0px;
+    height: 71.7vh;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    margin: 30px;
+}
+
+/* FORM */
+form {
+    background-color: var(--light-accent);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+/* chat bubble tag */
+form::after {
+    content: "";
+    border-top: 30px solid transparent;
+    border-right: 60px solid var(--light-accent);
+    border-bottom: 30px solid transparent;
+    float: right;
+    position: relative;
+    top: 30px;
+}
+
+input, textarea {
+    border-radius: 20px !important;
+    border: none !important;
+}
+
+::placeholder {
+    color: var(--emphasis-color) !important;
+}
+
+input:focus {
+    border-color: var(--emphasis-color) !important;
+}
+
+input[type="submit"] {
+    border-radius: 30px;
+    padding: 10px;
+    background-color: var(--background-color);
+    color: var(--emphasis-color);
+    border: solid 3px var(--light-accent);
+}
+
+input[type="submit"]:hover {
+    border-color: var(--emphasis-color);
+    transition: border 0.15s ease-in-out;
+}
+
+input[type="submit"]:active {
+    background-color: var(--emphasis-color);
+    color: var(--light-accent);
+    border-color: var(--emphasis-color);
+    transition: color 0.15s ease-in-out;
+}

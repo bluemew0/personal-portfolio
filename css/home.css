@@ -5,15 +5,16 @@
     position: sticky;
     height: 80%;
     padding: 20px;
+    background-color: var(--background-color);
 }
 
 .profile-card-div {
     text-align: left;
     margin: 50px 20px 0;
     padding: 20px;
-    border: solid #fcc87f 2px;
+    border: solid var(--light-accent) 2px;
     border-radius: 15px;
-    box-shadow: #fcc87f -10px 10px 0 0;
+    box-shadow: var(--light-accent) -10px 10px 0 0;
     border-bottom-left-radius: 0;
 }
 
@@ -27,7 +28,7 @@
 
 .profile-card-div i {
     padding-right: 10px;
-    color: #274879
+    color: var(--dark-accent);
 }
 
 .profile-card-div h3 {
@@ -35,14 +36,15 @@
 }
 
 .li-txt {
-    border-left: solid #274879 2px;
+    border-left: solid var(--dark-accent) 2px;
     margin: 5px;
 }
 
 .profile-card-div li:hover {
-    background-color: #fcc87f;
+    background-color: var(--light-accent);
     border-radius: 10px;
     border-bottom-left-radius: 0;
+    transition: background-color 0.15s ease-in-out 0s;
 }
 
 .li-txt p {
@@ -66,6 +68,7 @@
     display: inline-block;
     margin: 0;
     position: relative;
+    background-color: var(--light-accent);
 }
 
 #pfp-name {
@@ -74,10 +77,10 @@
     padding: 20px;
     width: 100%;
     font-size: 25px;
-    border: solid #fcc87f 2px;
+    border: solid var(--light-accent) 2px;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
-    box-shadow: #fcc87f -10px 10px 0 0;
+    box-shadow: var(--light-accent) -10px 10px 0 0;
 }
 
 #pfp-title {
@@ -86,6 +89,48 @@
     float: inline-end;
     margin-top: 20px;
     line-height: 25px;
+}
+
+/* FEATURED */
+#featured .card {
+    padding: 0;
+    border: none;
+    margin: 0 10px;
+    background-color: var(--background-color);
+}
+
+#featured img {
+    margin: 10px;
+    object-fit: cover;
+    width: 90%;
+}
+
+#featured .card:first-of-type img {
+    margin-top: 15px;
+}
+
+#featured p {
+    text-align: left;
+    font-size: 14px;
+}
+
+#featured .btn-primary {
+    background-color: var(--background-color);
+    font-family: "Fredoka One";
+    font-weight: normal;
+    letter-spacing: 2px;
+    border-color: var(--light-accent);
+    color: var(--light-accent);
+    border-radius: 30px;
+    padding: 6px 15px;
+}
+
+#featured .btn-primary:hover {
+    background-color: var(--light-accent);
+}
+
+#featured a:hover {
+    color: var(--background-color) !important;
 }
 
 /* GALLERY */
@@ -110,7 +155,7 @@
 }
 
 /* MEDIA QUERIES */
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
     #pfp {
         display: block;
     }
@@ -123,5 +168,16 @@
         margin: 20px;
         margin-bottom: 0;
         text-align: center;
+    }
+    #featured .card-title, #featured .card-text, #featured .btn, #featured .card-body {
+        display: none;
+    }
+
+    #featured .card {
+        border: none;
+    }
+
+    #featured img {
+        margin: 0;
     }
 }

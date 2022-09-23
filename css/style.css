@@ -1,10 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Josefin+Sans&family=PT+Serif&family=Philosopher&display=swap');
 
+:root {
+    --dark-accent: #274879;
+    --light-accent: #fcc87f;
+    --emphasis-color: #c7713c;
+    --link-color: #64a199;
+    --background-color: white;
+}
+
 /* FONTS AND TEXT STYLES */
 .fredoka-one {
     font-family: "Fredoka One";
     letter-spacing: 2px;
-    color: #274879;
+    color: var(--dark-accent);
 }
 
 .josefin-sans {
@@ -14,7 +22,7 @@
 
 .pt-serif {
     font-family: "PT Serif";
-    letter-spacing: 1px;
+    letter-spacing: 1px !important;
     font-weight: bolder;
 }
 
@@ -27,18 +35,18 @@
 .emphasis {
     font-weight: bolder !important;
     padding: 2px !important;
-    color: #c7713c !important;
+    color: var(--emphasis-color) !important;
 }
 
 #profile-card a {
     text-decoration: none !important;
-    color: #64a199 !important;
-    border-bottom: solid #64a199 1px;
+    color: var(--link-color) !important;
+    border-bottom: solid var(--link-color) 1px;
 }
 
 #nav-bar ul a {
     text-decoration: none;
-    color: #274879;
+    color: var(--dark-accent);
     font-size: 18px;
     letter-spacing: 3px;
     font-weight: normal;
@@ -50,11 +58,12 @@
 }
 
 a:hover {
-    color: #64a199 !important;
+    color: var(--link-color) !important;
+    transition: color 0.15s ease-in-out 0s;
 }
 
 .socials-txt {
-    color: #274879;
+    color: var(--dark-accent);
 }
 
 header a {
@@ -65,29 +74,32 @@ header a {
 }
 
 /*  */
+html {
+    background: var(--background-color);
+}
 
 main {
     padding: 30px;
     margin-top: 100px;
+    background: var(--background-color);
 }
 
 footer {
-    background-color: #fcc87f;
+    background-color: var(--light-accent);
     padding: 40px;
     width: 100%;
-    margin-top: 50px;
     bottom: 0;
 }
 
 .socials {
-    color: #274879;
+    color: var(--dark-accent);
     font-size: 30px;
     margin: 10px;
 }
 
 /* NAV BAR */
 #nav-bar {
-    background: white;
+    background: var(--background-color);
     padding-bottom: 0;
     border: none;
     margin-bottom: 0;
@@ -100,8 +112,8 @@ header {
 .line-animation::after {
     content: '';
     display: block;
-    background: #a1e3df;
-    border-bottom: solid 2px #a1e3df;
+    background: var(--link-color);
+    border-bottom: solid 2px var(--link-color);
     width: 100%;
     transform: scaleX(0);
     transform-origin: left;

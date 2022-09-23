@@ -20,7 +20,7 @@ function createGalleryImgs(imgJSON) {
         var index = 0; // to help keep track of gallery image indexes
         var divEl = $("#"+gallery+"-gallery");
         for (let image of imgJSON[gallery]) {
-            divEl.append("<div class='col-12 col-sm-6 col-md-3 col-lg-2'><img class='w-100' src='img/artwork/"+gallery+"/"+image+".jpg' data-bs-target='#"+gallery+"-carousel' data-bs-slide-to='"+index+"'></div>");
+            divEl.append("<div class='col-12 col-sm-6 col-md-3'><img class='w-100' src='img/artwork/"+gallery+"/"+image+".jpg' data-bs-target='#"+gallery+"-carousel' data-bs-slide-to='"+index+"'></div>");
             index += 1;
         }
     }

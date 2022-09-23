@@ -11,7 +11,7 @@
         <script type="module" src="js/home.js" defer></script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Home Page</title>
+        <title>LUASHH</title>
     </head>
     <body>
         <nav id="nav-bar" class="fixed-top">
@@ -79,7 +79,7 @@
                        </div>
                        <div id="experience" class="profile-card-div">
                             <h3 class="fredoka-one">EXPERIENCE</h3><button class="collapse-btn" type="button" data-bs-toggle="collapse" data-bs-target="#exp-collapse" aria-expanded="false" aria-controls="exp-collapse"><i class="bi bi-caret-down-fill"></i></button>
-                            <ul class="collapse list-unstyled" id="exp-collapse">
+                            <ul class="collapse.show list-unstyled" id="exp-collapse">
                                 <li>
                                     <i class="bi bi-balloon-fill"></i><span class="pt-serif">Love Heist Romeo (Senior Capstone Game)</span>
                                     <div class="li-txt">
@@ -115,33 +115,53 @@
                        </div>
                     </div>
                     <div class="col auto">
-                        <h1 class="fredoka-one py-3">FEATURED</h1>
-                        <div class="container album py-2">
-                            <div class="row">
-                                <div class="col auto">
-                                    <a href="https://bluemew0.github.io/portfolio/pages/projects.html#lhr"><img src="img/projects/love-heist-romeo/LHR title.png"></a>
-                                </div>
-                                <div class="col auto">
-                                    <a href="https://bluemew0.github.io/portfolio/pages/projects.html#foy"><img src="img/projects/fragments-of-you/pink.gif"></a>
-                                </div>
-                                <div class="col auto">
-                                    <a href="https://bluemew0.github.io/portfolio/pages/projects.html#heart-breakout"><img src="img/projects/heart-breakout/running.gif"></a>
+                        <section id="featured">
+                            <h1 class="fredoka-one py-3">FEATURED</h1>
+                            <div class="container album py-2">
+                                <div class="row">
+                                    <div class="col auto card">
+                                        <a href="https://bluemew0.github.io/portfolio/pages/projects.html#lhr"><img class="card-img-top" src="img/projects/love-heist-romeo/LHR title.png"></a>
+                                        <div class="card-body">
+                                            <h4 class="card-title fredoka-one">Love Heist Romeo</h4>
+                                            <p class="card-text pt-serif fw-normal">Love Heist Romeo is a 2D narrative-driven exploration game about a bunny named Romeo on his quest for True Love.</p>
+                                            <a class="btn btn-primary" href="https://bluemew0.github.io/portfolio/pages/projects.html#lhr">Project Page</a>
+                                        </div>
+                                    </div>
+                                    <div class="col auto card">
+                                        <a href="https://bluemew0.github.io/portfolio/pages/projects.html#foy"><img src="img/projects/fragments-of-you/pink.gif"></a>
+                                        <div class="card-body">
+                                            <h4 class="card-title fredoka-one">Fragments of You</h4>
+                                            <p class="card-text pt-serif fw-normal">Fragments of You is a platformer all about collecting the parts of your partner.</p>
+                                            <a class="btn btn-primary" href="https://bluemew0.github.io/portfolio/pages/projects.html#foy">Project Page</a>
+                                        </div>
+                                    </div>
+                                    <div class="col auto card">
+                                        <a href="https://bluemew0.github.io/portfolio/pages/projects.html#heart-breakout"><img src="img/projects/heart-breakout/running.gif"></a>
+                                        <div class="card-body">
+                                            <h4 class="card-title fredoka-one">HEART ♥ BREAKOUT</h4>
+                                            <p class="card-text pt-serif fw-normal">An endless runner to escape from your toxic lover in this surreal underworld world!</p>
+                                            <a class="btn btn-primary" href="https://bluemew0.github.io/portfolio/pages/projects.html#heart-breakout">Project Page</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <h1 class="fredoka-one py-3">WORKS</h1>
-                        <div class="row gallery" data-bs-toggle="modal" data-bs-target="#digital-modal" id="digital-gallery"></div>
-                        <div id="modals"></div>
+                        </section>
+                        <section id="works">
+                            <h1 class="fredoka-one py-3">WORKS</h1>
+                            <div class="row gallery" data-bs-toggle="modal" data-bs-target="#digital-modal" id="digital-gallery"></div>
+                            <div id="modals"></div>
+                        </section>
                     </div>
                 </div>
                 
             </div>
         </main>
         <footer class="text-center">
+            <a target="_blank" href="https://www.linkedin.com/in/luashhley/"><i class="bi bi-linkedin socials"></i></a>
             <a target="_blank" href="https://www.instagram.com/bluemew0/"><i class="bi bi-instagram socials"></i></a>
             <a target="_blank" href="https://twitter.com/home"><i class="bi bi-twitter socials"></i></a>
             <a target="_blank" href="https://www.twitch.tv/bluemew0"><i class="bi bi-twitch socials"></i></a>
-            <p class="socials-txt fredoka-one">bluemew0</p>
+            <p class="fredoka-one">bluemew0</p>
         </footer>
     </body>
 </html>

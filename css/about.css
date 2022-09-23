@@ -1,5 +1,7 @@
 main {
-    padding: 20px 200px;
+    padding: 0 200px;
+    margin-bottom: 0;
+    height: 71.7vh;
 }
 
 .description {
@@ -7,12 +9,17 @@ main {
     font-weight: normal;
 }
 
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
 /* PORTRAIT */
 #portrait {
-    border: solid #fcc87f 3px;
+    border: solid var(--light-accent) 3px;
     border-radius: 10px;
     padding: 20px;
-    box-shadow: #fcc87f -10px 10px 0 0;
+    box-shadow: var(--light-accent) -10px 10px 0 0;
 }
 
 #portrait figure {
@@ -34,7 +41,7 @@ main {
 }
 
 /* MEDIA QUERIES */
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     main {
         padding: 20px 50px;
     }
@@ -65,7 +72,7 @@ main {
     }
 }
 
-@media (max-width: 1400px) and (min-width: 768px) {
+@media (max-width: 1400px) and (min-width: 1200px) {
     main {
         padding: 20px 100px;
     }
