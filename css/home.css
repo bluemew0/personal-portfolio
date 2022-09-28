@@ -120,6 +120,7 @@
     font-weight: normal;
     letter-spacing: 2px;
     border-color: var(--light-accent);
+    border-width: 2px;
     color: var(--light-accent);
     border-radius: 30px;
     padding: 6px 15px;
