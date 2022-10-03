@@ -429,5 +429,79 @@
             "image": "scorebox.png",
             "caption": "Scorebox UI"
         }
+    ],
+    "mockup": [
+        {
+            "image": "chara1-asset.png",
+            "caption": "Character 1 pixel asset"
+        },
+        {
+            "image": "cat-asset.png",
+            "caption": "Cat pixel asset"
+        },
+        {
+            "image": "chara2-asset.png",
+            "caption": "Character 2 pixel asset"
+        },
+        {
+            "image": "chara1-sheet.jpg",
+            "caption": "Character sheet for 1st character"
+        },
+        {
+            "image": "cat-sheet.jpg",
+            "caption": "Character sheet for cat companion"
+        },
+        {
+            "image": "chara1-palette.jpg",
+            "caption": "Palette for 1st character and cat"
+        },
+        {
+            "image": "chara2-sheet.jpg",
+            "caption": "Character sheet for 2nd character"
+        },
+        {
+            "image": "chara2-moodboard.jpg",
+            "caption": "Moodboard for 2nd character"
+        },
+        {
+            "image": "enviro-collage.jpg",
+            "caption": "Environment moodboard"
+        },
+        {
+            "image": "enviro-moodboard.jpg",
+            "caption": "Revised environment moodboard"
+        },
+        {
+            "image": "style-moodboard.jpg",
+            "caption": "Style moodboard"
+        },
+        {
+            "image": "enviro1.jpg",
+            "caption": "1st environment draft"
+        },
+        {
+            "image": "enviro2.jpg",
+            "caption": "2nd environment draft"
+        },
+        {
+            "image": "ui.jpg",
+            "caption": "Mockup environment with UI elements"
+        },
+        {
+            "image": "final-bg1.png",
+            "caption": "1st iteration of final background"
+        },
+        {
+            "image": "final-bg2.png",
+            "caption": "2nd iteration of final background"
+        },
+        {
+            "image": "final1.jpg",
+            "caption": "1st iteration of final visuals and UI elements"
+        },
+        {
+            "image": "final2.jpg",
+            "caption": "2nd iteration of final visuals and UI elements"
+        }
     ]
 }

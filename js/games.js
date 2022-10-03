@@ -5,7 +5,7 @@
 
 // code references: https://www.tutorialspoint.com/how-to-import-local-json-file-data-to-my-javascript-variable
 // https://css-tricks.com/creating-a-modal-image-gallery-with-bootstrap-components/#top-of-site
-fetch("../js/projects.json")
+fetch("../js/games.json")
 .then(response => {
     return response.json();
 })
@@ -21,7 +21,7 @@ function createGalleryImgs(imgJSON) {
         var divEl = $("#"+gallery+"-gallery");
         for (let img of imgJSON[gallery]) {
             var image = img["image"];
-            divEl.append("<div class='col-12 col-sm-6 col-md-2'><img class='w-100' src='../img/projects/"+gallery+"/"+image+"' data-bs-target='#"+gallery+"-carousel' data-bs-slide-to='"+index+"'></div>");
+            divEl.append("<div class='col-12 col-sm-6 col-md-3'><img class='w-100' src='../img/games/"+gallery+"/"+image+"' data-bs-target='#"+gallery+"-carousel' data-bs-slide-to='"+index+"'></div>");
             index += 1;
         }
     }
@@ -46,7 +46,7 @@ function createCarouselImgs(imgJSON) {
             } else {
                 var l6 = "<div class='carousel-item'>";
             }
-            var l7 = "<img class='d-block w-100' src='../img/projects/"+gallery+"/"+image+"' data-bs-target='#"+gallery+"-carousel'>"
+            var l7 = "<img class='d-block w-100' src='../img/games/"+gallery+"/"+image+"' data-bs-target='#"+gallery+"-carousel'>"
             if (caption != "") {
                 var l8 = "<div class='carousel-caption d-non d-md-block'><p></p><p class='fredoka-one fw-normal'>"+caption+"</p></div></div>"
             } else {
