@@ -41,10 +41,10 @@ p {
 }
 
 /* GALLERY */
-#galleries {
+/* #galleries {
     margin-left: calc(100vw*.23);
     padding-right: 5%;
-}
+} */
 
 .gallery {
     border-left: solid 3px var(--dark-accent);

@@ -1,94 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Josefin+Sans&family=PT+Serif&family=Philosopher&display=swap');
 
-/* PROFILE CARD */
-#profile-card {
-    position: sticky;
-    height: 80%;
-    padding: 20px;
-    background-color: var(--background-color);
+.main {
+    padding-top: 0 !important;
 }
 
-.profile-card-div {
-    text-align: left;
-    margin: 50px 20px 0;
-    padding: 20px;
-    border: solid var(--light-accent) 2px;
+/* CIRCLE */
+.circle {
+    margin: 0 auto;
+    top: 0;
+    left: calc(80vw / 2);
+    margin-bottom: 100px;
+}
+
+.circle h2 {
+    padding-top: 50px;
+}
+.circle p {
+    margin: 20px 50px;
+    padding: 0 30px;
+}
+
+/* GAMES EXPERIENCE */
+/* #games-exp {
+    background-color: yellow;
+} */
+
+/* INVENTORY */
+#inventory {
+    background-color: var(--light-accent);
     border-radius: 15px;
-    box-shadow: var(--light-accent) -10px 10px 0 0;
-    border-bottom-left-radius: 0;
+    padding: 15px;
+    height: 750px;
 }
 
-.profile-card-div ul {
-    padding: 0;
+#inventory h2 {
+    margin-bottom: 0;
 }
 
-.profile-card-div li {
-    padding: 5px;
-}
-
-.profile-card-div i {
-    padding-right: 10px;
-    color: var(--dark-accent);
-}
-
-.profile-card-div h3 {
-    display: inline-block;
-}
-
-.li-txt {
-    border-left: solid var(--dark-accent) 2px;
-    margin: 5px;
-}
-
-.profile-card-div li:hover {
-    background-color: var(--light-accent);
-    border-radius: 10px;
-    border-bottom-left-radius: 0;
-    transition: background-color 0.15s ease-in-out 0s;
-}
-
-.li-txt p {
-    padding-left: 15px;
-    font-size: 13px;
-    font-weight: normal;
-}
-
-.collapse-btn {
-    display: inline-block;
-    border: none;
-    background-color: transparent;
-    
-}
-
-/* PROFILE PICTURE */
-#pfp-img {
-    object-fit: cover;
-    width: 180px;
-    height: 180px;
-    display: inline-block;
-    margin: 0;
-    position: relative;
-    background-color: var(--light-accent);
-}
-
-#pfp-name {
-    display: block;
-    margin-top: 20px;
-    padding: 20px;
-    width: 100%;
-    font-size: 25px;
-    border: solid var(--light-accent) 2px;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-    box-shadow: var(--light-accent) -10px 10px 0 0;
-}
-
-#pfp-title {
+#inventory ul {
     text-align: left;
-    font-size: 15px;
-    float: inline-end;
-    margin-top: 20px;
-    line-height: 25px;
+    margin: 0 15px;
+}
+
+#inventory section {
+    margin: 30px 0;
 }
 
 /* FEATURED */
@@ -106,7 +61,7 @@
 }
 
 #featured .card:first-of-type img {
-    margin-top: 15px;
+    margin-top: 18px;
 }
 
 #featured p {
@@ -128,10 +83,12 @@
 
 #featured .btn-primary:hover {
     background-color: var(--light-accent);
+    transition: background-color 0.3s ease;
 }
 
 #featured a:hover {
     color: var(--background-color) !important;
+    transition: color 0.3s ease;
 }
 
 /* GALLERY */
@@ -156,7 +113,7 @@
 }
 
 /* MEDIA QUERIES */
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
     #pfp {
         display: block;
     }
@@ -181,4 +138,4 @@
     #featured img {
         margin: 0;
     }
-}
+} */

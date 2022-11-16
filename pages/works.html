@@ -14,151 +14,155 @@
         <title>Works</title>
     </head>
     <body>
-        <nav id="nav-bar" class="fixed-top">
-            <div class="container-fluid">
-                <header class="d-flex flex-wrap align-items-center  py-2 justify-content-center justify-content-md-between mb-4 border-bottom">
-                    <a class="fredoka-one d-none d-sm-none d-md-block" href="../index.html">LUASHH</a>
-
-                    <ul class="nav col-12 col-md-auto mb-2 justify-content-end list-unstyled">
-                        <li><span class="line-animation"><a href="../index.html" class="fredoka-one">Home</a></span></li>
-                        <li><span class="line-animation"><a href="about.html" class="fredoka-one">About</a></span></li>
-                        <li><span class="line-animation"><a href="games.html" class="fredoka-one">Games</a></span></li>
-                        <li><span class="line-animation"><a href="" class="fredoka-one">Works</a></span></li>
-                        <li><span class="line-animation"><a href="contact.html" class="fredoka-one">Contact</a></span></li>
-                    </ul>
-                </header>
-            </div>
-        </nav>
         <main>
-            <div class="row">
-                <!-- PAGE NAV BARS -->
-                <div class="col-lg-1 d-none d-sm-none d-md-block" id="page-nav">
-                    <nav>
-                        <ul class="fredoka-one list-unstyled">
-                            <li><a href="#digital">Digital Art</a></li>
-                            <li><a href="#animation">2D Animation</a></li>
-                            <li><a href="#websites">Web Design</a></li>
-                            <li><a href="#threed">3D Art</a></li>
-                            <li><a href="#traditional">Traditional Art</a></li>
-                            <li><a href="#designs">Designs</a></li>
-                            <li><a href="#concentrations">Concentrations</a></li>
+            <div class="container">
+                <!-- SIDE BAR -->
+                <div class="gx-3 d-block flex-column flex-shrink-0 p-3 text-center" id="side-bar">
+                    <section id="profile">
+                        <img class="img-thumbnail rounded-circle" src="../img/pfp.jpg">
+                        <h2 class="fredoka-one my-2">Ashley Lu</h2>
+                        <h6 class="itim dark-accent">Illustrator ✦ Game Artist ✦ Web Designer</h6>
+                    </section>
+                    <section id="navigation">
+                        <ul class="list-unstyled" id="nav">
+                            <a href="../index.html" class="fredoka-one"><li>Home</li></a>
+                            <a href="games.html" class="fredoka-one"><li>Games</li></a>
+                            <a href="" class="fredoka-one"><li class="active">Art</li></a>
+                            <a href="design.html" class="fredoka-one"><li>Web Design</li></a>
+                            <a href="contact.html" class="fredoka-one"><li>Contact</li></a>
                         </ul>
-                    </nav>
+                    </section>
+                    <section id="socials">
+                        <a target="_blank" href="https://www.linkedin.com/in/luashhley/"><i class="bi bi-linkedin socials"></i></a>
+                        <a target="_blank" href="https://www.instagram.com/bluemew0/"><i class="bi bi-instagram socials"></i></a>
+                        <a target="_blank" href="https://twitter.com/bluemew0"><i class="bi bi-twitter socials"></i></a>
+                        <a target="_blank" href="https://www.twitch.tv/bluemew0"><i class="bi bi-twitch socials"></i></a>
+                    </section>
                 </div>
-                <!-- GALLERIES -->
-                <div class="col-9" id="galleries">
-                    <!-- DIGITAL ART -->
-                    <section>
-                        <h2 class="fredoka-one py-3" id="digital">DIGITAL</h2>
-                        <p class="pt-serif">Made with Clip Studio Paint and/or Adobe Photoshop.</p>
-                        <p class="pt-serif fw-normal">Includes personal illustrations, fanart, school projects, and commissions.</p>
-                        <div class="row gallery" data-bs-toggle="modal" data-bs-target="#digital-modal" id="digital-gallery">
-                        </div>
-                    </section>
-                    <!-- 2D ANIMATION -->
-                    <section>
-                        <h2 class="fredoka-one py-3" id="animation">2D ANIMATION</h2>
-                        <p class="pt-serif">Made with Adobe Photoshop or After Effects.</p>
-                        <p class="pt-serif fw-normal">Includes rotoscoping, frame animation, and key animations.</p>
-                        <div class="row gallery" data-bs-toggle="modal" data-bs-target="#animation-modal" id="animation-gallery">
-                        </div>
-                        <div>
-                            <iframe class="col-12 col-sm-6 col-lg-3" width="560" height="315" src="https://www.youtube.com/embed/FH-qDMKdiXQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            <iframe class="col-12 col-sm-6 col-lg-3" width="560" height="315" src="https://www.youtube.com/embed/G9FjWgx4cF0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                    </section>
-                    <!-- WEB DESIGN -->
-                    <section>
-                        <h2 class="fredoka-one py-3" id="websites">WEB DESIGN</h2>
-                        <p class="pt-serif">A list of small web design projects I made using HTML, CSS, and occasionally JavaScript.</p>
-                        <ul id="website-list" class="list-unstyled">
-                            <li>
-                                <i class="bi bi-balloon-fill"></i><a target="_blank" href="../index.html" class="pt-serif">Portfolio Site</a>
-                                <p class="pt-serif fw-normal">It's the website you're currently on! I used HTML, CSS, JavaScript, and Bootstrap to help create this website. Still adding and editing this site.</p>
-                                <img class=" w-50 d-block gallery" src="../img/artwork/websites/portfolio.jpg">
-                            </li>
-                            <li>
-                                <i class="bi bi-balloon-fill"></i><a target="_blank" href="../projects/title-screen/index.html" class="pt-serif">Mock Game Title Screen</a>
-                                <p class="pt-serif fw-normal">A mock title screen for a game. I made almost all art assets (rolypoly asset is made by Sophie Martin) and programmed the parallax and animations for this title screen using Phaser 3 and JavsScript.</p>
-                                <img class=" w-50 d-block gallery" src="../img/artwork/websites/mock-game-title.jpg">
-                            </li>
-                            <li>
-                                <i class="bi bi-balloon-fill"></i><a target="_blank" href="../projects/survey-form/index.html" class="pt-serif">Survey Form</a>
-                                <p class="pt-serif fw-normal">A minimalist survey form that has text inputs, radio options, checkbox options, and a selection input.</p>
-                                <img class="gallery w-50 d-block" src="../img/artwork/websites/survey-form.jpg">
-                            </li>
-                            <li>
-                                <i class="bi bi-balloon-fill"></i><a target="_blank" href="../projects/tribute-page/index.html" class="pt-serif">Tribute Page</a>
-                                <p class="pt-serif fw-normal">A tribute page for Frida Kahlo. I tried to keep it modern while also being reminiscent of other tribute pages that often use serif fonts and blocky layouts.</p>
-                                <div class="row gallery">
-                                    <img class="w-30 col-12 col-sm-6 d-inline" src="../img/artwork/websites/tribute-page-1.jpg">
-                                    <img class="w-30 col-12 col-sm-6" src="../img/artwork/websites/tribute-page-2.jpg">
-                                </div>
-                            </li>
-                            <li>
-                                <i class="bi bi-balloon-fill"></i><a target="_blank" href="../projects/documentation-page/index.html" class="pt-serif">Mock Documentation Page</a>
-                                <img class="gallery w-50 d-block" src="../img/artwork/websites/mock-documentation.jpg">
-                            </li>
-                        </ul>
-                    </section>
-                    <!-- 3D ART -->
-                    <section>
-                        <h2 class="fredoka-one py-3" id="threed">3D ART</h2>
-                        <p class="pt-serif">Made with Blender.</p>
-                        <div class="row gallery" data-bs-toggle="modal" data-bs-target="#blender-modal" id="blender-gallery">
-                            <div>
-                                <iframe class="col-12 col-sm-6 col-lg-3" width="560" height="315" src="https://www.youtube.com/embed/vxRHnUS6FeU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                <iframe class="col-12 col-sm-6 col-lg-3" width="560" height="315" src="https://www.youtube.com/embed/raI9kvTaLVc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                <iframe class="col-12 col-sm-6 col-lg-3" width="560" height="315" src="https://www.youtube.com/embed/s7dbaapWG4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <!-- MAIN CONTENT -->
+                <div class="col main">
+                    <!-- PAGE NAV BARS -->
+                    <div class="col-lg-1 d-none d-sm-none d-md-block" id="page-nav">
+                        <nav>
+                            <ul class="fredoka-one list-unstyled">
+                                <li><a href="#digital">Digital Art</a></li>
+                                <li><a href="#animation">2D Animation</a></li>
+                                <li><a href="#websites">Web Design</a></li>
+                                <li><a href="#threed">3D Art</a></li>
+                                <li><a href="#traditional">Traditional Art</a></li>
+                                <li><a href="#designs">Designs</a></li>
+                                <li><a href="#concentrations">Concentrations</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- GALLERIES -->
+                    <div class="col" id="galleries">
+                        <!-- DIGITAL ART -->
+                        <section>
+                            <h2 class="fredoka-one py-3" id="digital">DIGITAL</h2>
+                            <p class="itim">Made with Clip Studio Paint and/or Adobe Photoshop.</p>
+                            <p class="itim fw-normal">Includes personal illustrations, fanart, school projects, and commissions.</p>
+                            <div class="row gallery" data-bs-toggle="modal" data-bs-target="#digital-modal" id="digital-gallery">
                             </div>
-                        </div>
-                        <p class="pt-serif">Made with Maya.</p>
-                        <p class="pt-serif fw-normal">The lootbox was a project to help get familiar with the 3D modeling pipeline.
-                            I first created concept art and then made low and high poly versions of the lootbox. Then I used both Photoshop
-                            and Substance Painter seperately to create textures. Finally, I brought it into Unity to stage it with lighting.
-                        </p>
-                        <div class="row gallery" data-bs-toggle="modal" data-bs-target="#maya-modal" id="maya-gallery">
-                        </div>
-                    </section>
-                    <!-- TRADITIONAL ART -->
-                    <section>
-                        <h2 class="fredoka-one py-3" id="traditional">TRADITIONAL</h2>
-                        <p class="pt-serif">Made with different mediums: acrylic, graphite, oil, watercolor, gouache.</p>
-                        <div class="row gallery" data-bs-toggle="modal" data-bs-target="#traditional-modal" id="traditional-gallery">
-                        </div>
-                    </section>
-                    <!-- DESIGNS -->
-                    <section>
-                        <h2 class="fredoka-one py-3" id="designs">DESIGNS</h2>
-                        <p class="pt-serif">Made with Illustrator and/or Clip Studio Paint.</p>
-                        <p class="pt-serif fw-normal">Designs include posters, logos, screens, and stickers.</p>
-                        <div class="row gallery" data-bs-toggle="modal" data-bs-target="#designs-modal" id="designs-gallery">
-                        </div>
-                    </section>
-                    <!-- CONCENTRATIONS -->
-                    <section>
-                        <h2 class="fredoka-one py-3" id="concentrations">CONCENTRATIONS</h2>
-                        <p class="pt-serif fs-3">Airhead (2018)</p>
-                        <p class="pt-serif fw-normal">This concentration focuses on my own internal struggles to break free of various restrictions, some of which are as listed: self-consciousness, guilt, negativity, and other fears. I tend to often hold myself back with excessive thoughts which act as a catalyst for my fears and prevent me from being comfortable in a foreign environment. The repeated balloon is a symbol of many meanings. To me, it's almost an embodiment of myself. It ties onto me, either chaining me down or carrying me away. It's empty with air, representing the meaningless thoughts and worries I have but are heavy enough to pull me back. It takes me to a far away place, separate from the problems and stress.​ Through this symbol, I depict a journey of achieving freedom from all of these restrictions.</p>
-                        <div class="row gallery" data-bs-toggle="modal" data-bs-target="#airhead-modal" id="airhead-gallery">
-                        </div>
-                        <p class="pt-serif fs-3">The Feminist Revolution (2019)</p>
-                        <p class="pt-serif fw-normal">This concentration centers around feminism. Oppressed groups such as women, people of color, and the LGBTQ+ community are still fighting for their equal rights. Race, gender, and sexuality should have no influence on equality of freedom. This concentration focuses on the empowerment of women specifically.</p>
-                        <div class="row gallery" data-bs-toggle="modal" data-bs-target="#feminist-revolution-modal" id="feminist-revolution-gallery">
-                        </div>
-                    </section>
+                        </section>
+                        <!-- 2D ANIMATION -->
+                        <section>
+                            <h2 class="fredoka-one py-3" id="animation">2D ANIMATION</h2>
+                            <p class="itim">Made with Adobe Photoshop or After Effects.</p>
+                            <p class="itim fw-normal">Includes rotoscoping, frame animation, and key animations.</p>
+                            <div class="row gallery" data-bs-toggle="modal" data-bs-target="#animation-modal" id="animation-gallery">
+                            </div>
+                            <div>
+                                <iframe class="col-12 col-sm-6 col-lg-3" width="560" height="315" src="https://www.youtube.com/embed/FH-qDMKdiXQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe class="col-12 col-sm-6 col-lg-3" width="560" height="315" src="https://www.youtube.com/embed/G9FjWgx4cF0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </section>
+                        <!-- WEB DESIGN -->
+                        <section>
+                            <h2 class="fredoka-one py-3" id="websites">WEB DESIGN</h2>
+                            <p class="itim">A list of small web design projects I made using HTML, CSS, and occasionally JavaScript.</p>
+                            <ul id="website-list" class="list-unstyled">
+                                <li>
+                                    <i class="bi bi-balloon-fill"></i><a target="_blank" href="../index.html" class="itim">Portfolio Site</a>
+                                    <p class="itim fw-normal">It's the website you're currently on! I used HTML, CSS, JavaScript, and Bootstrap to help create this website. Still adding and editing this site.</p>
+                                    <img class=" w-50 d-block gallery" src="../img/artwork/websites/portfolio.jpg">
+                                </li>
+                                <li>
+                                    <i class="bi bi-balloon-fill"></i><a target="_blank" href="../projects/title-screen/index.html" class="itim">Mock Game Title Screen</a>
+                                    <p class="itim fw-normal">A mock title screen for a game. I made almost all art assets (rolypoly asset is made by Sophie Martin) and programmed the parallax and animations for this title screen using Phaser 3 and JavsScript.</p>
+                                    <img class=" w-50 d-block gallery" src="../img/artwork/websites/mock-game-title.jpg">
+                                </li>
+                                <li>
+                                    <i class="bi bi-balloon-fill"></i><a target="_blank" href="../projects/survey-form/index.html" class="itim">Survey Form</a>
+                                    <p class="itim fw-normal">A minimalist survey form that has text inputs, radio options, checkbox options, and a selection input.</p>
+                                    <img class="gallery w-50 d-block" src="../img/artwork/websites/survey-form.jpg">
+                                </li>
+                                <li>
+                                    <i class="bi bi-balloon-fill"></i><a target="_blank" href="../projects/tribute-page/index.html" class="itim">Tribute Page</a>
+                                    <p class="itim fw-normal">A tribute page for Frida Kahlo. I tried to keep it modern while also being reminiscent of other tribute pages that often use serif fonts and blocky layouts.</p>
+                                    <div class="row gallery">
+                                        <img class="w-30 col-12 col-sm-6 d-inline" src="../img/artwork/websites/tribute-page-1.jpg">
+                                        <img class="w-30 col-12 col-sm-6" src="../img/artwork/websites/tribute-page-2.jpg">
+                                    </div>
+                                </li>
+                                <li>
+                                    <i class="bi bi-balloon-fill"></i><a target="_blank" href="../projects/documentation-page/index.html" class="itim">Mock Documentation Page</a>
+                                    <img class="gallery w-50 d-block" src="../img/artwork/websites/mock-documentation.jpg">
+                                </li>
+                            </ul>
+                        </section>
+                        <!-- 3D ART -->
+                        <section>
+                            <h2 class="fredoka-one py-3" id="threed">3D ART</h2>
+                            <p class="itim">Made with Blender.</p>
+                            <div class="row gallery" data-bs-toggle="modal" data-bs-target="#blender-modal" id="blender-gallery">
+                                <div>
+                                    <iframe class="col-12 col-sm-6 col-lg-3" width="560" height="315" src="https://www.youtube.com/embed/vxRHnUS6FeU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <iframe class="col-12 col-sm-6 col-lg-3" width="560" height="315" src="https://www.youtube.com/embed/raI9kvTaLVc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <iframe class="col-12 col-sm-6 col-lg-3" width="560" height="315" src="https://www.youtube.com/embed/s7dbaapWG4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <p class="itim">Made with Maya.</p>
+                            <p class="itim fw-normal">The lootbox was a project to help get familiar with the 3D modeling pipeline.
+                                I first created concept art and then made low and high poly versions of the lootbox. Then I used both Photoshop
+                                and Substance Painter seperately to create textures. Finally, I brought it into Unity to stage it with lighting.
+                            </p>
+                            <div class="row gallery" data-bs-toggle="modal" data-bs-target="#maya-modal" id="maya-gallery">
+                            </div>
+                        </section>
+                        <!-- TRADITIONAL ART -->
+                        <section>
+                            <h2 class="fredoka-one py-3" id="traditional">TRADITIONAL</h2>
+                            <p class="itim">Made with different mediums: acrylic, graphite, oil, watercolor, gouache.</p>
+                            <div class="row gallery" data-bs-toggle="modal" data-bs-target="#traditional-modal" id="traditional-gallery">
+                            </div>
+                        </section>
+                        <!-- DESIGNS -->
+                        <section>
+                            <h2 class="fredoka-one py-3" id="designs">DESIGNS</h2>
+                            <p class="itim">Made with Illustrator and/or Clip Studio Paint.</p>
+                            <p class="itim fw-normal">Designs include posters, logos, screens, and stickers.</p>
+                            <div class="row gallery" data-bs-toggle="modal" data-bs-target="#designs-modal" id="designs-gallery">
+                            </div>
+                        </section>
+                        <!-- CONCENTRATIONS -->
+                        <section>
+                            <h2 class="fredoka-one py-3" id="concentrations">CONCENTRATIONS</h2>
+                            <p class="itim fs-3">Airhead (2018)</p>
+                            <p class="itim fw-normal">This concentration focuses on my own internal struggles to break free of various restrictions, some of which are as listed: self-consciousness, guilt, negativity, and other fears. I tend to often hold myself back with excessive thoughts which act as a catalyst for my fears and prevent me from being comfortable in a foreign environment. The repeated balloon is a symbol of many meanings. To me, it's almost an embodiment of myself. It ties onto me, either chaining me down or carrying me away. It's empty with air, representing the meaningless thoughts and worries I have but are heavy enough to pull me back. It takes me to a far away place, separate from the problems and stress.​ Through this symbol, I depict a journey of achieving freedom from all of these restrictions.</p>
+                            <div class="row gallery" data-bs-toggle="modal" data-bs-target="#airhead-modal" id="airhead-gallery">
+                            </div>
+                            <p class="itim fs-3">The Feminist Revolution (2019)</p>
+                            <p class="itim fw-normal">This concentration centers around feminism. Oppressed groups such as women, people of color, and the LGBTQ+ community are still fighting for their equal rights. Race, gender, and sexuality should have no influence on equality of freedom. This concentration focuses on the empowerment of women specifically.</p>
+                            <div class="row gallery" data-bs-toggle="modal" data-bs-target="#feminist-revolution-modal" id="feminist-revolution-gallery">
+                            </div>
+                        </section>
+                    </div>
                 </div>
-            </div>
 
-            <!-- MODALS -->
-            <div id="modals"></div>
+                <!-- MODALS -->
+                <div id="modals"></div>
+            </div>
         </main>
-        <footer class="text-center">
-            <a target="_blank" href="https://www.linkedin.com/in/luashhley/"><i class="bi bi-linkedin socials"></i></a>
-            <a target="_blank" href="https://www.instagram.com/bluemew0/"><i class="bi bi-instagram socials"></i></a>
-            <a target="_blank" href="https://twitter.com/bluemew0"><i class="bi bi-twitter socials"></i></a>
-            <a target="_blank" href="https://www.twitch.tv/bluemew0"><i class="bi bi-twitch socials"></i></a>
-            <p class="fredoka-one">bluemew0</p>
-        </footer>
     </body>
 </html>

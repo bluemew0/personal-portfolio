@@ -11,111 +11,130 @@
         <script type="module" src="js/home.js" defer></script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>LUASHH</title>
+        <title>Home</title>
     </head>
     <body>
-        <nav id="nav-bar" class="fixed-top">
-            <div class="contai ner-fluid">
-                <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-2 mb-4 border-bottom">
-                    <a class="fredoka-one d-none d-sm-none d-md-block" href="">LUASHH</a>
-
-                    <ul class="nav col-12 col-md-auto justify-content-end list-unstyled">
-                        <li><span class="line-animation"><a href="" class="fredoka-one">Home</a></span></li>
-                        <li><span class="line-animation"><a href="pages/about.html" class="fredoka-one">About</a></span></li>
-                        <li><span class="line-animation"><a href="pages/games.html" class="fredoka-one">Games</a></span></li>
-                        <li><span class="line-animation"><a href="pages/works.html" class="fredoka-one">Works</a></span></li>
-                        <li><span class="line-animation"><a href="pages/contact.html" class="fredoka-one">Contact</a></span></li>
-                    </ul>
-                </header>
-            </div>
-        </nav>
         <main>
             <div class="container text-center">
-                <div class="row">
-                    <div class="col-md-5 auto gx-3 card" id="profile-card">
-                        <div id ="pfp"class="row">
-                            <div class="col">
-                                <img id="pfp-img" class="img-thumbnail rounded-circle" src="img/pfp.jpg">
+                    <!-- SIDE BAR -->
+                    <div class="gx-3 d-block flex-column flex-shrink-0 p-3" id="side-bar">
+                        <section id="profile">
+                            <img class="img-thumbnail rounded-circle" src="img/pfp.jpg">
+                            <h2 class="fredoka-one my-2">Ashley Lu</h2>
+                            <h6 class="itim dark-accent">Illustrator ✦ Game Artist ✦ Web Designer</h6>
+                        </section>
+                        <section id="navigation">
+                            <ul class="list-unstyled" id="nav">
+                                <a href="" class="fredoka-one"><li class="active">Home</li></a>
+                                <a href="pages/games.html" class="fredoka-one"><li>Games</li></a>
+                                <a href="pages/works.html" class="fredoka-one"><li>Art</li></a>
+                                <a href="pages/design.html" class="fredoka-one"><li>Web Design</li></a>
+                                <a href="pages/contact.html" class="fredoka-one"><li>Contact</li></a>
+                            </ul>
+                        </section>
+                        <section id="socials">
+                            <a target="_blank" href="https://www.linkedin.com/in/luashhley/"><i class="bi bi-linkedin socials"></i></a>
+                            <a target="_blank" href="https://www.instagram.com/bluemew0/"><i class="bi bi-instagram socials"></i></a>
+                            <a target="_blank" href="https://twitter.com/bluemew0"><i class="bi bi-twitter socials"></i></a>
+                            <a target="_blank" href="https://www.twitch.tv/bluemew0"><i class="bi bi-twitch socials"></i></a>
+                        </section>
+                    </div>
+                    <!-- MAIN CONTENT -->
+                    <div class="col d-block auto main">
+                        <div id="about" class="circle">
+                            <h2 class="fredoka-one">About</h2>
+                            <p class="itim dark-accent">
+                                I am a 4th year at UC Santa Cruz  expected to graduate in June 2023. I am currently studying art & design for games & playable media with a minor in language studies.
+                                I am interested in creating colorful art and illustrations for games as well as designing and creating websites. I've always wanted to be able to apply my art in more modern and digital ways and I think these two fields fulfill those interests. 
+                            </p>
+                        </div>
+                        <div class="row">
+                            <div class="col-8 mx-3" id="featured">
+                                <!-- <h2 class="fredoka-one">Games Experience</h2>
+                                <section id="heart-breakout">
+                                </section>
+                                <section id="heart-breakout">
+                                </section>
+                                <section id="heart-breakout">
+                                </section>
+                                <section id="heart-breakout">
+                                </section> -->
+                                <section id="featured">
+                                    <h2 class="fredoka-one py-3">Featured Games</h2>
+                                    <div class="container album py-2">
+                                        <div class="row">
+                                            <div class="col auto card">
+                                                <a href="https://bluemew0.github.io/portfolio/pages/games.html#lhr"><img class="card-img-top" src="img/games/love-heist-romeo/LHR title.png"></a>
+                                                <div class="card-body">
+                                                    <h4 class="card-title fredoka-one">Love Heist Romeo</h4>
+                                                    <p class="card-text itim fw-normal">Love Heist Romeo is a 2D narrative-driven exploration game about a bunny named Romeo on his quest for True Love.</p>
+                                                    <a class="btn btn-primary" href="https://bluemew0.github.io/portfolio/pages/games.html#lhr">Project Page</a>
+                                                </div>
+                                            </div>
+                                            <div class="col auto card">
+                                                <a href="https://bluemew0.github.io/portfolio/pages/projects.html#foy"><img src="img/games/fragments-of-you/pink.gif"></a>
+                                                <div class="card-body">
+                                                    <h4 class="card-title fredoka-one">Fragments of You</h4>
+                                                    <p class="card-text itim fw-normal">Fragments of You is a platformer all about collecting the parts of your partner.</p>
+                                                    <a class="btn btn-primary" href="https://bluemew0.github.io/portfolio/pages/games.html#foy">Project Page</a>
+                                                </div>
+                                            </div>
+                                            <div class="col auto card">
+                                                <a href="https://bluemew0.github.io/portfolio/pages/projects.html#heart-breakout"><img src="img/games/heart-breakout/running.gif"></a>
+                                                <div class="card-body">
+                                                    <h4 class="card-title fredoka-one">HEART ♥ BREAKOUT</h4>
+                                                    <p class="card-text itim fw-normal">An endless runner to escape from your toxic lover in this surreal underworld world!</p>
+                                                    <a class="btn btn-primary" href="https://bluemew0.github.io/portfolio/pages/games.html#heart-breakout">Project Page</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section id="works">
+                                    <h2 class="fredoka-one py-3">Digital Art</h2>
+                                    <div class="row gallery" data-bs-toggle="modal" data-bs-target="#digital-modal" id="digital-gallery"></div>
+                                    <div id="modals"></div>
+                                </section>
                             </div>
-                            <div class="col auto">
-                                <h2 id="pfp-name" class="fredoka-one">Ashley Lu</h2>
-                                <h6 id="pfp-title" class="pt-serif">illustrator, game artist, and learning web designer</h6>
+                            <div class="col-3" id="inventory">
+                                <section>
+                                    <h2 class="fredoka-one">Skills</h2>
+                                    <ul class="list-unstyled">
+                                        <li class="itim">✦ 2D Digital Art</li>
+                                        <li class="itim">✦ Pixel Art & Animation</li>
+                                        <li class="itim">✦ Concept Art</li>
+                                        <li class="itim">✦ 2D Environment Art</li>
+                                        <li class="itim">✦ Basic 3D Modeling & Animation</li>
+                                        <li class="itim">✦ Responsive Web Design</li>
+                                    </ul>
+                                </section>
+                                <section>
+                                    <h2 class="fredoka-one">Software</h2>
+                                    <ul class="list-unstyled">
+                                        <li class="itim">✦ Clip Studio Paint</li>
+                                        <li class="itim">✦ Adobe Creative Cloud</li>
+                                        <li class="itim">✦ Aseprite</li>
+                                        <li class="itim">✦ Blender</li>
+                                        <li class="itim">✦ Figma</li>
+                                        <li class="itim">✦ Weebly, Google Sites</li>
+                                        <li class="itim">✦ Google Suite</li>
+                                    </ul>
+                                </section>
+                                <section>
+                                    <h2 class="fredoka-one">Languages</h2>
+                                    <ul class="list-unstyled">
+                                        <li class="itim">✦ HTML</li>
+                                        <li class="itim">✦ CSS</li>
+                                        <li class="itim">✦ JavaScript</li>
+                                        <li class="itim">✦ Python</li>
+                                        <li class="itim">✦ English</li>
+                                        <li class="itim">✦ Intermediate Japanese</li>
+                                        <li class="itim">✦ Conversational Mandarin Chinese</li>
+                                    </ul>
+                                </section>
                             </div>
                         </div>
-                       <div id="skills" class="profile-card-div">
-                            <h3 class="fredoka-one">SKILLS</h3><button class="collapse-btn" type="button" data-bs-toggle="collapse" data-bs-target="#skills-collapse" aria-expanded="false" aria-controls="skills-collapse"><i class="bi bi-caret-down-fill"></i></button>
-                            <ul class="collapse.show list-unstyled" id="skills-collapse">
-                                <li>
-                                    <i class="bi bi-balloon-fill"></i><span class="pt-serif">Digital Art</span>
-                                    <div class="li-txt">
-                                        <p class="pt-serif">Created illustrations in Clip Studio Paint. Made art assets for games.</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <i class="bi bi-balloon-fill"></i><span class="pt-serif">Responsive Web Design</span>
-                                    <div class="li-txt">
-                                        <p class="pt-serif">Currently learning about responsive web design and studying HTML, CSS, and JavaScript to create and design websites. Currently working with Bootstrap.</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <i class="bi bi-balloon-fill"></i><span class="pt-serif">HTML, CSS, JavaScript, Python</span>
-                                    <div class="li-txt">
-                                        <p class="pt-serif">Used HTML, CSS, and JavaScript to create websites. Used JavaScript to code games using JS framework Phaser.</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <i class="bi bi-balloon-fill"></i><span class="pt-serif">Adobe Photoshop, Illustrator & After Effects</span>
-                                    <div class="li-txt">
-                                        <p class="pt-serif">Used these programs to make illustrations, logos, designs, and animations.</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <i class="bi bi-balloon-fill"></i><span class="pt-serif">3D Modeling and Animation</span>
-                                    <div class="li-txt">
-                                        <p class="pt-serif">Used Blender to model simple characters and animate them.</p>
-                                    </div>
-                                </li>
-                            </ul>
-                       </div>
-                       <div id="experience" class="profile-card-div">
-                            <h3 class="fredoka-one">EXPERIENCE</h3><button class="collapse-btn" type="button" data-bs-toggle="collapse" data-bs-target="#exp-collapse" aria-expanded="false" aria-controls="exp-collapse"><i class="bi bi-caret-down-fill"></i></button>
-                            <ul class="collapse.show list-unstyled" id="exp-collapse">
-                                <li>
-                                    <i class="bi bi-balloon-fill"></i><span class="pt-serif">Love Heist Romeo (Senior Capstone Game)</span>
-                                    <div class="li-txt">
-                                        <p class="pt-serif">Participated as an <span class="emphasis">environment artist</span> and also created a banner and icon for the game. Was actively involved in its art direction and discussion.</p>
-                                        <p class="pt-serif">You can find more information and play the game <a target="_blank" href="https://loveheistromeo.itch.io/love-heist-romeo">here</a>.</p>
-                                        <p class="pt-serif">You can find my specific contributions <a target="_blank" href="https://bluemew0.github.io/portfolio/pages/games.html#lhr">here</a>.</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <i class="bi bi-balloon-fill"></i><span class="pt-serif">Fragments of You (Senior Capstone Game)</span>
-                                    <div class="li-txt">
-                                        <p class="pt-serif">Participated as a <span class="emphasis">pixel environment artist</span> and designed the backgrounds for the game. I also created animations for the backgrounds I made.</p>
-                                        <p class="pt-serif">You can find more information <a target="_blank" href="https://jwake0.wixsite.com/fragments-of-you">here</a> and play the game <a target="_blank" href="https://skspy.itch.io/fragments-of-you">here</a>.</p>
-                                        <p class="pt-serif">You can find my specific contributions <a target="_blank" href="https://bluemew0.github.io/portfolio/pages/games.html#foy">here</a>.</p>
-                                    </div></li>
-                                <li>
-                                    <i class="bi bi-balloon-fill"></i><span class="pt-serif">HEART ♥ BREAKOUT (Endless Runner Game)</span>
-                                    <div class="li-txt">
-                                        <p class="pt-serif">Fulfilled the roles of <span class="emphasis">artist, art director, and side programmer</span>. Responsible for all art assets, website creation and styling, and animation coding. Used JavaScript framework Phaser.</p>
-                                        <p class="pt-serif">You can play the game <a target="_blank" href="https://ericktung.github.io/EndlessRunner/">here</a>.</p>
-                                        <p class="pt-serif">You can find my specific contributions <a target="_blank" href="https://bluemew0.github.io/portfolio/pages/games.html#heart-breakout">here</a>.</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <i class="bi bi-balloon-fill"></i><span class="pt-serif">Doorway Effect (Browser Game)</span>
-                                    <div class="li-txt">
-                                        <p class="pt-serif">Fulfilled the roles of <span class="emphasis">artist, art director, and side programmer</span>. Responsible for all art assets, title screen and end screen programming, and website creation and styling. Used JavaScript framework Phaser.</p>
-                                        <p class="pt-serif">You can play the game <a target="_blank" href="https://bluemew0.itch.io/doorway-effect">here</a> and <a target="_blank" href="https://spandemic.github.io/TheDoorwayEffect/">here</a>.</p>
-                                        <p class="pt-serif">You can find my specific contributions <a target="_blank" href="https://bluemew0.github.io/portfolio/pages/games.html#doorway-effect">here</a>.</p>
-                                    </div>
-                                </li>
-                            </ul>
-                       </div>
-                    </div>
-                    <div class="col auto">
-                        <section id="featured">
+                        <!-- <section id="featured">
                             <h1 class="fredoka-one py-3">FEATURED</h1>
                             <div class="container album py-2">
                                 <div class="row">
@@ -123,7 +142,7 @@
                                         <a href="https://bluemew0.github.io/portfolio/pages/games.html#lhr"><img class="card-img-top" src="img/games/love-heist-romeo/LHR title.png"></a>
                                         <div class="card-body">
                                             <h4 class="card-title fredoka-one">Love Heist Romeo</h4>
-                                            <p class="card-text pt-serif fw-normal">Love Heist Romeo is a 2D narrative-driven exploration game about a bunny named Romeo on his quest for True Love.</p>
+                                            <p class="card-text itim fw-normal">Love Heist Romeo is a 2D narrative-driven exploration game about a bunny named Romeo on his quest for True Love.</p>
                                             <a class="btn btn-primary" href="https://bluemew0.github.io/portfolio/pages/games.html#lhr">Project Page</a>
                                         </div>
                                     </div>
@@ -131,7 +150,7 @@
                                         <a href="https://bluemew0.github.io/portfolio/pages/projects.html#foy"><img src="img/games/fragments-of-you/pink.gif"></a>
                                         <div class="card-body">
                                             <h4 class="card-title fredoka-one">Fragments of You</h4>
-                                            <p class="card-text pt-serif fw-normal">Fragments of You is a platformer all about collecting the parts of your partner.</p>
+                                            <p class="card-text itim fw-normal">Fragments of You is a platformer all about collecting the parts of your partner.</p>
                                             <a class="btn btn-primary" href="https://bluemew0.github.io/portfolio/pages/games.html#foy">Project Page</a>
                                         </div>
                                     </div>
@@ -139,7 +158,7 @@
                                         <a href="https://bluemew0.github.io/portfolio/pages/projects.html#heart-breakout"><img src="img/games/heart-breakout/running.gif"></a>
                                         <div class="card-body">
                                             <h4 class="card-title fredoka-one">HEART ♥ BREAKOUT</h4>
-                                            <p class="card-text pt-serif fw-normal">An endless runner to escape from your toxic lover in this surreal underworld world!</p>
+                                            <p class="card-text itim fw-normal">An endless runner to escape from your toxic lover in this surreal underworld world!</p>
                                             <a class="btn btn-primary" href="https://bluemew0.github.io/portfolio/pages/games.html#heart-breakout">Project Page</a>
                                         </div>
                                     </div>
@@ -150,18 +169,10 @@
                             <h1 class="fredoka-one py-3">WORKS</h1>
                             <div class="row gallery" data-bs-toggle="modal" data-bs-target="#digital-modal" id="digital-gallery"></div>
                             <div id="modals"></div>
-                        </section>
+                        </section> -->
                     </div>
-                </div>
                 
             </div>
         </main>
-        <footer class="text-center">
-            <a target="_blank" href="https://www.linkedin.com/in/luashhley/"><i class="bi bi-linkedin socials"></i></a>
-            <a target="_blank" href="https://www.instagram.com/bluemew0/"><i class="bi bi-instagram socials"></i></a>
-            <a target="_blank" href="https://twitter.com/bluemew0"><i class="bi bi-twitter socials"></i></a>
-            <a target="_blank" href="https://www.twitch.tv/bluemew0"><i class="bi bi-twitch socials"></i></a>
-            <p class="fredoka-one">bluemew0</p>
-        </footer>
     </body>
 </html>

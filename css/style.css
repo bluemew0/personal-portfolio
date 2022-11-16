@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Josefin+Sans&family=PT+Serif&family=Philosopher&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Fredoka:wght@400;600&family=Itim&display=swap');
 
 :root {
     --dark-accent: #274879;
@@ -15,46 +15,32 @@
     color: var(--dark-accent);
 }
 
-.josefin-sans {
-    font-family: "Josefin Sans";
-    font-weight: bold;
+.itim {
+    font-family: "Itim";
+    letter-spacing: 0.5px;
+    color: var(--dark-accent);
 }
 
-.pt-serif {
-    font-family: "PT Serif";
-    letter-spacing: 1px !important;
-    font-weight: bolder;
+.fredoka {
+    font-family: "Fredoka";
+    letter-spacing: 2px;
 }
 
-.philosopher {
-    font-family: "Philosopher";
-    letter-spacing: 1px;
-    font-weight: bolder;
+.light-accent {
+    color: var(--light-accent); 
+}
+
+.dark-accent {
+    color: var(--dark-accent);
 }
 
 .emphasis {
     font-weight: bolder !important;
-    padding: 2px !important;
     color: var(--emphasis-color) !important;
 }
 
-#profile-card a {
-    text-decoration: none !important;
-    color: var(--link-color) !important;
-    border-bottom: solid var(--link-color) 1px;
-}
-
-#nav-bar ul a {
-    text-decoration: none;
-    color: var(--dark-accent);
-    font-size: 18px;
-    letter-spacing: 3px;
-    font-weight: normal;
-    margin: 5px;
-}
-
-#nav-bar ul li:last-of-type {
-    margin-right: 50px;
+.active {
+    color: var(--emphasis-color);
 }
 
 a:hover {
@@ -62,58 +48,12 @@ a:hover {
     transition: color 0.15s ease-in-out 0s;
 }
 
-.socials-txt {
-    color: var(--dark-accent);
-}
-
-header a {
-    text-decoration: none;
-    font-size: 30px;
-    letter-spacing: 5px;
-    margin-left: 50px;
-}
-
-/*  */
-html {
-    background: var(--background-color);
-}
-
-main {
-    padding: 30px;
-    margin-top: 100px;
-    background: var(--background-color);
-}
-
-footer {
-    background-color: var(--light-accent);
-    padding: 40px;
-    width: 100%;
-    bottom: 0;
-}
-
-.socials {
-    color: var(--dark-accent);
-    font-size: 30px;
-    margin: 10px;
-}
-
-/* NAV BAR */
-#nav-bar {
-    background: var(--background-color);
-    padding-bottom: 0;
-    border: none;
-    margin-bottom: 0;
-}
-
-header {
-    margin-bottom: 0;
-}
-
+/* LINE ANIMATION */
 .line-animation::after {
     content: '';
     display: block;
-    background: var(--link-color);
-    border-bottom: solid 2px var(--link-color);
+    background: var(--emphasis-color);
+    border-bottom: solid 2px var(--emphasis-color);
     width: 100%;
     transform: scaleX(0);
     transform-origin: left;
@@ -124,8 +64,101 @@ header {
     transform: scaleX(1);
 }
 
-#nav-bar li {
-    padding-right: 0;
-    margin: 10px;
+
+/*  */
+html {
+    background: var(--background-color);
 }
 
+main {
+    background: var(--background-color);
+}
+
+.circle {
+    background-color: var(--light-accent);
+    bottom: 50%;
+    border-radius: 0 0 500px 500px;
+    width: 800px;
+    height: 400px;
+}
+
+
+/* SIDE BAR */
+#side-bar {
+    top: 0;
+    left: 0;
+    background-color: var(--light-accent);
+    position: fixed;
+    height: 100%;
+    max-width: 350px;
+    z-index: 1;
+    overflow-x: hidden;
+}
+
+#profile {
+    margin-top: 50px;
+}
+
+#profile img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: var(--background-color);
+    border: solid var(--background-color) 8px;
+}
+
+#sidebar h6 {
+    font-size: 16px;
+}
+
+/* NAVIGATION */
+#nav {
+    padding: 50px 0;
+}
+
+#nav a {
+    text-decoration: none;
+    color: var(--light-accent);
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-weight: normal;
+}
+
+#nav a:hover {
+    color: var(--emphasis-color) !important;
+    transition: color 0.3s ease;
+}
+
+#nav a:active {
+    color: var(--emphasis-color) !important;
+    font-weight: normal;
+}
+
+#nav li {
+    padding: 10px;
+    border-radius: 30px;
+    margin: 10px;
+    background: var(--background-color);
+}
+
+.socials {
+    color: var(--dark-accent);
+    font-size: 30px;
+    margin: 10px;
+    bottom: 100vh;
+}
+
+/* MAIN */
+.main {
+    left: 400px;
+    margin: 0 100px;
+    width: 100%;
+    padding: 5% 0;
+}
+
+@media (max-width: 900px) {
+    #side-bar {
+        visibility: hidden;
+    }
+}

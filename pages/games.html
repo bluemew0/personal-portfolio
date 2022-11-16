@@ -11,122 +11,126 @@
         <script type="module" src="../js/games.js" defer></script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Projects</title>
+        <title>Games</title>
     </head>
     <body>
-        <nav id="nav-bar" class="fixed-top">
-            <div class="contai ner-fluid">
-                <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-2 mb-4 border-bottom">
-                    <a class="fredoka-one d-none d-sm-none d-md-block" href="../index.html">LUASHH</a>
-
-                    <ul class="nav col-12 col-md-auto justify-content-end list-unstyled">
-                        <li><span class="line-animation"><a href="../index.html" class="fredoka-one">Home</a></span></li>
-                        <li><span class="line-animation"><a href="about.html" class="fredoka-one">About</a></span></li>
-                        <li><span class="line-animation"><a href="" class="fredoka-one">Games</a></span></li>
-                        <li><span class="line-animation"><a href="works.html" class="fredoka-one">Works</a></span></li>
-                        <li><span class="line-animation"><a href="contact.html" class="fredoka-one">Contact</a></span></li>
-                    </ul>
-                </header>
-            </div>
-        </nav>
         <main>
-            <div class="row">
-                <!-- PAGE NAV BARS -->
-                <div class="col-lg-1 d-none d-sm-none d-md-block" id="page-nav">
-                    <nav>
-                        <h2 class="fredoka-one py-3 text-center">GAMES</h2>
-                        <ul class="fredoka-one list-unstyled">
-                            <li><a href="#lhr">Love Heist Romeo</a></li>
-                            <li><a href="#foy">Fragments of You</a></li>
-                            <li><a href="#heart-breakout">HEART ♥ BREAKOUT</a></li>
-                            <li><a href="#doorway-effect">Doorway Effect</a></li>
-                            <li><a href="#rocket-patrol">Modded Rocket Patrol</a></li>
-                            <li><a href="#mockup">Mockup Game</a></li>
+            <div class="container">
+                <!-- SIDE BAR -->
+                <div class="gx-3 d-block flex-column flex-shrink-0 p-3 text-center" id="side-bar">
+                    <section id="profile">
+                        <img class="img-thumbnail rounded-circle" src="../img/pfp.jpg">
+                        <h2 class="fredoka-one my-2">Ashley Lu</h2>
+                        <h6 class="itim dark-accent">Illustrator ✦ Game Artist ✦ Web Designer</h6>
+                    </section>
+                    <section id="navigation">
+                        <ul class="list-unstyled" id="nav">
+                            <a href="../index.html" class="fredoka-one"><li>Home</li></a>
+                            <a href="" class="fredoka-one"><li class="active">Games</li></a>
+                            <a href="works.html" class="fredoka-one"><li>Art</li></a>
+                            <a href="design.html" class="fredoka-one"><li>Web Design</li></a>
+                            <a href="contact.html" class="fredoka-one"><li>Contact</li></a>
                         </ul>
-                    </nav>
+                    </section>
+                    <section id="socials">
+                        <a target="_blank" href="https://www.linkedin.com/in/luashhley/"><i class="bi bi-linkedin socials"></i></a>
+                        <a target="_blank" href="https://www.instagram.com/bluemew0/"><i class="bi bi-instagram socials"></i></a>
+                        <a target="_blank" href="https://twitter.com/bluemew0"><i class="bi bi-twitter socials"></i></a>
+                        <a target="_blank" href="https://www.twitch.tv/bluemew0"><i class="bi bi-twitch socials"></i></a>
+                    </section>
                 </div>
-                <!-- GALLERIES -->
-                <div class="col-9" id="galleries">
-                    <!-- LOVE HEIST ROMEO -->
-                    <section>
-                        <h2 class="fredoka-one py-3" id="lhr">Love Heist Romeo</h2>
-                        <p class="pt-serif">Love Heist Romeo is a 2D narrative-driven exploration game about a bunny named Romeo on his quest for True Love. Follow a wizard’s advice down a rabbit hole to interact with cute animals, collect magical orbs, and discover doors to whimsically colorful worlds!</p>
-                        <p class="pt-serif fw-normal">I worked on Love Heist Romeo as an environment artist, drawing the bases for the different neighborhoods in the game based on the level designer's layouts. I also helped with some of the promotion art for the game and refining some of the decor pieces done by our other environment artist, Lucky Medikonda. This is a 2021 senior capstone project at UCSC.</p>
-                        <p class="pt-serif fw-normal">Below are drafts, concepts, final artwork, and game screenshots of my contributions.</p>
-                        <p class="pt-serif">You can find more information and play the game <a target="_blank" href="https://loveheistromeo.itch.io/love-heist-romeo">here</a>.</p>
-                        <div class="row gallery" data-bs-toggle="modal" data-bs-target="#love-heist-romeo-modal" id="love-heist-romeo-gallery"></div>
-                    </section>
-                    <!-- FRAGMENTS OF YOU -->
-                    <section>
-                        <h2 class="fredoka-one py-3" id="foy">Fragments of You</h2>
-                        <p class="pt-serif">Fragments of You is a platformer all about collecting the parts of your partner. While going about collecting these parts, the player will need to sacrifice their own parts to unlock those of their partners. In losing parts the player will also lose certain movement options associated with the parts lost.</p>
-                        <p class="pt-serif fw-normal">This is a 2022 senior capstone game that I helped out with as a pixel background artist. I created and designed the backgrounds using a moodboard defined by the senior creative team. You can see my concept art, drafts, and finished products down below.</p>
-                        <p class="pt-serif">You can find more information <a target="_blank" href="https://jwake0.wixsite.com/fragments-of-you">here</a> and play the game <a target="_blank" href="https://skspy.itch.io/fragments-of-you">here</a>.</p>
-                        <div class="row gallery" data-bs-toggle="modal" data-bs-target="#fragments-of-you-modal" id="fragments-of-you-gallery"></div>
-                    </section>
-                    <!-- HEART BREAKOUT -->
-                    <section>
-                        <h2 class="fredoka-one py-3" id="heart-breakout">HEART ♥ BREAKOUT</h2>
-                        <p class="pt-serif">Escape from your toxic lover in this surreal underworld world! </p>
-                        <p class="pt-serif fw-normal">Made by Andy Eng, Ashley Lu, Siwen Tao, and Erick Tung.<p>
-                        <p class="pt-serif fw-normal">I was responsible for the art direction, all of the art assets and I created the website for the game. I also did some of the tweening animations and some visual polish. Made in Phaser 3. Below are art assets and concepts for the game.</p>
-                        <p class="pt-serif">You can play the game <a target="_blank" href="https://ericktung.github.io/EndlessRunner/">here</a>.</p>
-                        <div class="row gallery" data-bs-toggle="modal" data-bs-target="#heart-breakout-modal" id="heart-breakout-gallery"></div>
-                    </section>
-                    <!-- DOORWAY EFFECT -->
-                    <section>
-                        <h2 class="fredoka-one py-3" id="doorway-effect">Doorway Effect</h2>
-                        <p class="pt-serif">Help Lethe collect their items and escape "The Doorway Effect" to get to school!
-                        <br><br>
-                        This short, engaging memory game is a simple but fun experience that anyone can enjoy and you can learn to connect with our main character, Lethe. (<i>The doorway effect</i> happens when you pass through different “doorways,” or environments, and your memory declines. More information can be found <a href="https://en.wikipedia.org/wiki/Doorway_effect" target="_blank">here</a>.)</p>
-                        <p class="pt-serif fw-normal">Made by Andy Eng, Ashley Lu, Siwen Tao, and Erick Tung.<p></p>
-                        <p class="pt-serif fw-normal">I was in charge of the art direction and art assets for this game. I also helped program the title screen animation and result screen, and I implemented the character animation. I also created and styled the website for his game. Made in Phaser 3. You can see my concept art and finished products below.</p>
-                        <p class="pt-serif">You can play the game <a target="_blank" href="https://bluemew0.itch.io/doorway-effect">here</a> and <a target="_blank" href="https://spandemic.github.io/TheDoorwayEffect/">here</a>.</p>
-                        <div class="row gallery" data-bs-toggle="modal" data-bs-target="#doorway-effect-modal" id="doorway-effect-gallery"></div>
-                    </section>
-                    <!-- MODDED ROCKET PATROL -->
-                    <section>
-                        <h2 class="fredoka-one py-3" id="rocket-patrol">Modded Rocket Patrol</h2>
-                        <p class="pt-serif">A more refined Rocket Patrol with a personal touch</p>
-                        <p class="pt-serif fw-normal">I recreated Rocket Patrol in Phaser 3 and then added modifications to the original Rocket Patrol. Some of these modifications include: 
-                            <ul class="pt-serif fw-normal">
-                                <li>Tracking a high score that persists across scenes</li>
-                                <li>Background music ("All of Us" by <a target="_blank" href="http://EricSkiff.com/music">Eric Skiff</a>)</li>
-                                <li>New art assets</li>
-                                <li>Title screen</li>
-                                <li>New type of spaceship that is faster and adds time and more points</li>
-                                <li>Parallax scrolling</li>
-                                <li>Displaying the remaining time</li>
-                                <li>A higher difficulty mode</li>
-                                <li>Ability to control the rocket after it has been fired</li>
+                <!-- MAIN CONTENT -->
+                <div class="col main">
+                    <!-- PAGE NAV BARS -->
+                    <!-- <div class="col-lg-1 d-none d-sm-none d-md-block" id="page-nav">
+                        <nav>
+                            <h2 class="fredoka-one py-3 text-center">GAMES</h2>
+                            <ul class="fredoka-one list-unstyled">
+                                <li><a href="#lhr">Love Heist Romeo</a></li>
+                                <li><a href="#foy">Fragments of You</a></li>
+                                <li><a href="#heart-breakout">HEART ♥ BREAKOUT</a></li>
+                                <li><a href="#doorway-effect">Doorway Effect</a></li>
+                                <li><a href="#rocket-patrol">Modded Rocket Patrol</a></li>
+                                <li><a href="#mockup">Mockup Game</a></li>
                             </ul>
-                        </p>
-                        <p class="pt-serif">You can play the game <a target="_blank" href="https://bluemew0.github.io/rocketPatrolMods/">here</a>.</p>
-                        <div class="row gallery" data-bs-toggle="modal" data-bs-target="#modded-rp-modal" id="modded-rp-gallery"></div>
-                    </section>
-                    <!-- MOCKUP GAME -->
-                    <section>
-                        <h2 class="fredoka-one py-3" id="mockup">Mockup Game</h2>
-                        <p class="pt-serif fw-normal">I created characters, assets and a mockup screen for a concepted game for a class in order to get familiar with the game art pipeline and learn different tools.</p>
-                        <div class="row gallery" data-bs-toggle="modal" data-bs-target="#mockup-modal" id="mockup-gallery"></div>
-                        <div class="row py-5">
-                            <p class="col-6 pt-serif fw-normal mx-auto my-auto">Short animation made in After Effects to showcase animated UI elements.</p>
-                            <iframe class="col-6" width="560" height="315" src="https://www.youtube.com/embed/G9FjWgx4cF0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                    </section>
-                    
+                        </nav>
+                    </div> -->
+                    <!-- GALLERIES -->
+                    <div class="col-9" id="galleries">
+                        <!-- LOVE HEIST ROMEO -->
+                        <section>
+                            <h2 class="fredoka-one py-3" id="lhr">Love Heist Romeo</h2>
+                            <p class="itim">Love Heist Romeo is a 2D narrative-driven exploration game about a bunny named Romeo on his quest for True Love. Follow a wizard’s advice down a rabbit hole to interact with cute animals, collect magical orbs, and discover doors to whimsically colorful worlds!</p>
+                            <p class="itim fw-normal">I worked on Love Heist Romeo as an environment artist, drawing the bases for the different neighborhoods in the game based on the level designer's layouts. I also helped with some of the promotion art for the game and refining some of the decor pieces done by our other environment artist, Lucky Medikonda. This is a 2021 senior capstone project at UCSC.</p>
+                            <p class="itim fw-normal">Below are drafts, concepts, final artwork, and game screenshots of my contributions.</p>
+                            <p class="itim">You can find more information and play the game <a target="_blank" href="https://loveheistromeo.itch.io/love-heist-romeo">here</a>.</p>
+                            <div class="row gallery" data-bs-toggle="modal" data-bs-target="#love-heist-romeo-modal" id="love-heist-romeo-gallery"></div>
+                        </section>
+                        <!-- FRAGMENTS OF YOU -->
+                        <section>
+                            <h2 class="fredoka-one py-3" id="foy">Fragments of You</h2>
+                            <p class="itim">Fragments of You is a platformer all about collecting the parts of your partner. While going about collecting these parts, the player will need to sacrifice their own parts to unlock those of their partners. In losing parts the player will also lose certain movement options associated with the parts lost.</p>
+                            <p class="itim fw-normal">This is a 2022 senior capstone game that I helped out with as a pixel background artist. I created and designed the backgrounds using a moodboard defined by the senior creative team. You can see my concept art, drafts, and finished products down below.</p>
+                            <p class="itim">You can find more information <a target="_blank" href="https://jwake0.wixsite.com/fragments-of-you">here</a> and play the game <a target="_blank" href="https://skspy.itch.io/fragments-of-you">here</a>.</p>
+                            <div class="row gallery" data-bs-toggle="modal" data-bs-target="#fragments-of-you-modal" id="fragments-of-you-gallery"></div>
+                        </section>
+                        <!-- HEART BREAKOUT -->
+                        <section>
+                            <h2 class="fredoka-one py-3" id="heart-breakout">HEART ♥ BREAKOUT</h2>
+                            <p class="itim">Escape from your toxic lover in this surreal underworld world! </p>
+                            <p class="itim fw-normal">Made by Andy Eng, Ashley Lu, Siwen Tao, and Erick Tung.<p>
+                            <p class="itim fw-normal">I was responsible for the art direction, all of the art assets and I created the website for the game. I also did some of the tweening animations and some visual polish. Made in Phaser 3. Below are art assets and concepts for the game.</p>
+                            <p class="itim">You can play the game <a target="_blank" href="https://ericktung.github.io/EndlessRunner/">here</a>.</p>
+                            <div class="row gallery" data-bs-toggle="modal" data-bs-target="#heart-breakout-modal" id="heart-breakout-gallery"></div>
+                        </section>
+                        <!-- DOORWAY EFFECT -->
+                        <section>
+                            <h2 class="fredoka-one py-3" id="doorway-effect">Doorway Effect</h2>
+                            <p class="itim">Help Lethe collect their items and escape "The Doorway Effect" to get to school!
+                            <br><br>
+                            This short, engaging memory game is a simple but fun experience that anyone can enjoy and you can learn to connect with our main character, Lethe. (<i>The doorway effect</i> happens when you pass through different “doorways,” or environments, and your memory declines. More information can be found <a href="https://en.wikipedia.org/wiki/Doorway_effect" target="_blank">here</a>.)</p>
+                            <p class="itim fw-normal">Made by Andy Eng, Ashley Lu, Siwen Tao, and Erick Tung.<p></p>
+                            <p class="itim fw-normal">I was in charge of the art direction and art assets for this game. I also helped program the title screen animation and result screen, and I implemented the character animation. I also created and styled the website for his game. Made in Phaser 3. You can see my concept art and finished products below.</p>
+                            <p class="itim">You can play the game <a target="_blank" href="https://bluemew0.itch.io/doorway-effect">here</a> and <a target="_blank" href="https://spandemic.github.io/TheDoorwayEffect/">here</a>.</p>
+                            <div class="row gallery" data-bs-toggle="modal" data-bs-target="#doorway-effect-modal" id="doorway-effect-gallery"></div>
+                        </section>
+                        <!-- MODDED ROCKET PATROL -->
+                        <section>
+                            <h2 class="fredoka-one py-3" id="rocket-patrol">Modded Rocket Patrol</h2>
+                            <p class="itim">A more refined Rocket Patrol with a personal touch</p>
+                            <p class="itim fw-normal">I recreated Rocket Patrol in Phaser 3 and then added modifications to the original Rocket Patrol. Some of these modifications include: 
+                                <ul class="itim fw-normal">
+                                    <li>Tracking a high score that persists across scenes</li>
+                                    <li>Background music ("All of Us" by <a target="_blank" href="http://EricSkiff.com/music">Eric Skiff</a>)</li>
+                                    <li>New art assets</li>
+                                    <li>Title screen</li>
+                                    <li>New type of spaceship that is faster and adds time and more points</li>
+                                    <li>Parallax scrolling</li>
+                                    <li>Displaying the remaining time</li>
+                                    <li>A higher difficulty mode</li>
+                                    <li>Ability to control the rocket after it has been fired</li>
+                                </ul>
+                            </p>
+                            <p class="itim">You can play the game <a target="_blank" href="https://bluemew0.github.io/rocketPatrolMods/">here</a>.</p>
+                            <div class="row gallery" data-bs-toggle="modal" data-bs-target="#modded-rp-modal" id="modded-rp-gallery"></div>
+                        </section>
+                        <!-- MOCKUP GAME -->
+                        <section>
+                            <h2 class="fredoka-one py-3" id="mockup">Mockup Game</h2>
+                            <p class="itim fw-normal">I created characters, assets and a mockup screen for a concepted game for a class in order to get familiar with the game art pipeline and learn different tools.</p>
+                            <div class="row gallery" data-bs-toggle="modal" data-bs-target="#mockup-modal" id="mockup-gallery"></div>
+                            <div class="row py-5">
+                                <p class="col-6 itim fw-normal mx-auto my-auto">Short animation made in After Effects to showcase animated UI elements.</p>
+                                <iframe class="col-6" width="560" height="315" src="https://www.youtube.com/embed/G9FjWgx4cF0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </section>
+                        
+                    </div>
                 </div>
-            </div>
 
-            <!-- MODALS -->
-            <div id="modals"></div>
+                <!-- MODALS -->
+                <div id="modals"></div>
+            </div>
         </main>
-        <footer class="text-center">
-            <a target="_blank" href="https://www.linkedin.com/in/luashhley/"><i class="bi bi-linkedin socials"></i></a>
-            <a target="_blank" href="https://www.instagram.com/bluemew0/"><i class="bi bi-instagram socials"></i></a>
-            <a target="_blank" href="https://twitter.com/bluemew0"><i class="bi bi-twitter socials"></i></a>
-            <a target="_blank" href="https://www.twitch.tv/bluemew0"><i class="bi bi-twitch socials"></i></a>
-            <p class="fredoka-one">bluemew0</p>
-        </footer>
     </body>
 </html>

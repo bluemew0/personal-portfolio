@@ -33,7 +33,7 @@ function createCarouselImgs(imgJSON) {
         var index = 0;
         // asssigning all the html code into lines for organization purposes
         var l1 = "<div class='modal fade' id='"+gallery+"-modal' tabindex='-1'>";
-        var l2 = "<div class='modal-dialog modal-lg'><div class='modal-content'><div class='modal-header'>";
+        var l2 = "<div class='modal-dialog modal-xl'><div class='modal-content'><div class='modal-header'>";
         var l3 = "<button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Close'></button></div>";
         var l4 = "<div class='modal-body'><div id='"+gallery+"-carousel' class='carousel carousel-dark slide' data-bs-ride='carousel'>";
         var l5 = "<div class='carousel-inner'>";

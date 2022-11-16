@@ -41,10 +41,6 @@ p {
 }
 
 /* GALLERY */
-#galleries {
-    margin-left: calc(100vw*.17);
-}
-
 .gallery {
     border-left: solid 3px var(--dark-accent);
     margin-left: 10px !important;

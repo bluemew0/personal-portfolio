@@ -12,76 +12,73 @@
         <title>Contact</title>
     </head>
     <body>
-        <nav id="nav-bar" class="fixed-top">
-            <div class="contai ner-fluid">
-                <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-2 mb-4 border-bottom">
-                    <a class="fredoka-one d-none d-sm-none d-md-block" href="../index.html">LUASHH</a>
-
-                    <ul class="nav col-12 col-md-auto justify-content-end list-unstyled">
-                        <li><span class="line-animation"><a href="../index.html" class="fredoka-one">Home</a></span></li>
-                        <li><span class="line-animation"><a href="about.html" class="fredoka-one">About</a></span></li>
-                        <li><span class="line-animation"><a href="games.html" class="fredoka-one">Games</a></span></li>
-                        <li><span class="line-animation"><a href="works.html" class="fredoka-one">Works</a></span></li>
-                        <li><span class="line-animation"><a href="" class="fredoka-one">Contact</a></span></li>
-                    </ul>
-                </header>
-            </div>
-        </nav>
         <main>
             <div class="container">
-                <div class="row">
-                    <div class="col mx-3 text-center">
-                        <img class="rounded-circle mx-auto d-block" src="../img/pfp.jpg">
-                        <h2 class="fredoka-one">Let's talk!</h2>
-                        <p class="pt-serif fw-normal">Contact me to commission me, discuss freelance jobs, or anything else!</p>
-                        <p class="pt-serif"><i class="bi bi-exclamation-circle-fill"></i> NOTE: This is still under construction, pressing the send button will not do anything as of this moment.</p>
-                    </div>
-                    <div class="col">
-                        <!-- <form method="post" action="email.php"> -->
-                        <form>
-                            <div class="mb-3">
-                                <label for="name" class="form-label fredoka-one"><i class="bi bi-person-circle"></i> Name</label>
-                                <input 
-                                    id="name"
-                                    name="name"
-                                    placeholder="Your Name"
-                                    type="text"
-                                    class="form-control pt-serif fw-normal"
-                                    required>
-                                </input>
-                            </div>
-                            <div class="mb-3">
-                                <label for="email" class="form-label fredoka-one"><i class="bi bi-envelope-fill"></i> Email Address</label>
-                                <input 
-                                    name="email"
-                                    id="email" 
-                                    placeholder="example@email.com" 
-                                    type="email" class="form-control pt-serif fw-normal"
-                                    required>
-                                </input>
-                            </div>
-                            <div class="mb-3">
-                                <label for="message" class="form-label fredoka-one"><i class="bi bi-pencil-fill"></i> Message</label>
-                                <textarea 
-                                    name="message"
-                                    id="message"
-                                    placeholder="Your message here..."
-                                    rows="4"
-                                    class="form-control pt-serif fw-normal" 
-                                    required></textarea>
-                            </div>
-                            <input type="submit" class="fredoka-one" value="Send"></input>
-                        </form>
-                    </div>
+                <!-- SIDE BAR -->
+                <div class="gx-3 d-block flex-column flex-shrink-0 p-3 text-center" id="side-bar">
+                    <section id="profile">
+                        <img class="img-thumbnail rounded-circle" src="../img/pfp.jpg">
+                        <h2 class="fredoka-one my-2">Ashley Lu</h2>
+                        <h6 class="itim dark-accent">Illustrator ✦ Game Artist ✦ Web Designer</h6>
+                    </section>
+                    <section id="navigation">
+                        <ul class="list-unstyled" id="nav">
+                            <a href="../index.html" class="fredoka-one"><li>Home</li></a>
+                            <a href="games.html" class="fredoka-one"><li>Games</li></a>
+                            <a href="works.html" class="fredoka-one"><li>Art</li></a>
+                            <a href="design.html" class="fredoka-one"><li>Web Design</li></a>
+                            <a href="" class="fredoka-one"><li class="active">Contact</li></a>
+                        </ul>
+                    </section>
+                    <section id="socials">
+                        <a target="_blank" href="https://www.linkedin.com/in/luashhley/"><i class="bi bi-linkedin socials"></i></a>
+                        <a target="_blank" href="https://www.instagram.com/bluemew0/"><i class="bi bi-instagram socials"></i></a>
+                        <a target="_blank" href="https://twitter.com/bluemew0"><i class="bi bi-twitter socials"></i></a>
+                        <a target="_blank" href="https://www.twitch.tv/bluemew0"><i class="bi bi-twitch socials"></i></a>
+                    </section>
+                </div>
+                <!-- MAIN CONTENT -->
+                <div class="col auto text-center main">
+                    <h2 class="fredoka-one">Let's talk!</h2>
+                    <p class="itim fw-normal">Contact me to commission me, discuss freelance jobs, or anything else!</p>
+                    <p class="itim"><i class="bi bi-exclamation-circle-fill"></i> NOTE: This is still under construction, pressing the send button will not do anything as of this moment.</p>
+                    <!-- <form method="post" action="email.php"> -->
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label fredoka-one"><i class="bi bi-person-circle"></i> Name</label>
+                            <input 
+                                id="name"
+                                name="name"
+                                placeholder="Your Name"
+                                type="text"
+                                class="form-control itim fw-normal"
+                                required>
+                            </input>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label fredoka-one"><i class="bi bi-envelope-fill"></i> Email Address</label>
+                            <input 
+                                name="email"
+                                id="email" 
+                                placeholder="example@email.com" 
+                                type="email" class="form-control itim fw-normal"
+                                required>
+                            </input>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label fredoka-one"><i class="bi bi-pencil-fill"></i> Message</label>
+                            <textarea 
+                                name="message"
+                                id="message"
+                                placeholder="Your message here..."
+                                rows="4"
+                                class="form-control itim fw-normal" 
+                                required></textarea>
+                        </div>
+                        <input type="submit" class="fredoka-one" value="Send"></input>
+                    </form>
                 </div>
             </div>
         </main>
-        <footer class="text-center">
-            <a target="_blank" href="https://www.linkedin.com/in/luashhley/"><i class="bi bi-linkedin socials"></i></a>
-            <a target="_blank" href="https://www.instagram.com/bluemew0/"><i class="bi bi-instagram socials"></i></a>
-            <a target="_blank" href="https://twitter.com/bluemew0"><i class="bi bi-twitter socials"></i></a>
-            <a target="_blank" href="https://www.twitch.tv/bluemew0"><i class="bi bi-twitch socials"></i></a>
-            <p class="fredoka-one">bluemew0</p>
-        </footer>
     </body>
 </html>
