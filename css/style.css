@@ -123,6 +123,7 @@ main {
     font-size: 18px;
     letter-spacing: 3px;
     font-weight: normal;
+    transition: color 0.3s ease;
 }
 
 #nav a:hover {

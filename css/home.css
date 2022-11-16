@@ -10,6 +10,8 @@
     top: 0;
     left: calc(80vw / 2);
     margin-bottom: 100px;
+    background-color: var(--light-accent);
+    transition: background-color 0.5s ease-out;
 }
 
 .circle h2 {
@@ -18,6 +20,13 @@
 .circle p {
     margin: 20px 50px;
     padding: 0 30px;
+}
+
+.circle:hover {
+    background-color: var(--background-color);
+    border: solid 4px var(--light-accent);
+    border-top: 0;
+    transition: background-color 0.5s ease-out;
 }
 
 /* GAMES EXPERIENCE */
@@ -79,6 +88,7 @@
     color: var(--light-accent);
     border-radius: 30px;
     padding: 6px 15px;
+    transition: background-color 0.3 ease;
 }
 
 #featured .btn-primary:hover {
