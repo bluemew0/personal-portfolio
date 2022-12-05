@@ -14,7 +14,7 @@ fetch("js/works.json")
     createCarouselImgs(data) 
 });
 
-// functions
+/* FUNCTIONS */
 function createGalleryImgs(imgJSON) {
     for (let gallery in imgJSON) {
         var index = 0; // to help keep track of gallery image indexes
