@@ -503,5 +503,163 @@
             "image": "final2.jpg",
             "caption": "2nd iteration of final visuals and UI elements"
         }
+    ],
+    "one-button": [
+        {
+            "image": "firefly-catch.jpg",
+            "caption": "Gameplay of Firefly Catch"
+        },
+        {
+            "image": "fc-concept.jpg",
+            "caption": "Concept art for Firefly Catch"
+        },
+        {
+            "image": "fc-concept2.gif",
+            "caption": "Sprite concepts for Firefly Catch"
+        },
+        {
+            "image": "color-beats.jpg",
+            "caption": "Gameplay of Color Beats"
+        },
+        {
+            "image": "cb-concept.gif",
+            "caption": "Concept art and sprites for Color Beats"
+        },
+        {
+            "image": "playing-with-fire.jpg",
+            "caption": "Gameplay of Playing with Fire"
+        }
+    ],
+    "suscord": [
+        {
+            "image": "title-screen.jpg",
+            "caption": "Title screen, replicating Discord server invite"
+        },
+        {
+            "image": "text-channel.png",
+            "caption": "Mockup of text channels"
+        },
+        {
+            "image": "voice-channel.png",
+            "caption": "Mockup of voice channels"
+        },
+        {
+            "image": "shop.png",
+            "caption": "Mockup of seperate shop overlay"
+        },
+        {
+            "image": "final-mockup.png",
+            "caption": "Final mockup combining shop and channels into one overlay"
+        },
+        {
+            "image": "logo-sketches.jpg",
+            "caption": "Sketches for logo"
+        },
+        {
+            "image": "logo.png",
+            "caption": "Final logo"
+        },
+        {
+            "image": "pfp1.png",
+            "caption": "Profile picture 1"
+        },
+        {
+            "image": "pfp2.png",
+            "caption": "Profile picture 2"
+        },
+        {
+            "image": "pfp3.png",
+            "caption": "Profile picture 3"
+        },
+        {
+            "image": "pfp4.png",
+            "caption": "Profile picture 4"
+        },
+        {
+            "image": "pfp5.png",
+            "caption": "Profile picture 5"
+        },
+        {
+            "image": "pfp6.png",
+            "caption": "Profile picture 6"
+        },
+        {
+            "image": "pfp7.png",
+            "caption": "Profile picture 7"
+        },
+        {
+            "image": "pfp8.png",
+            "caption": "Profile picture 8"
+        },
+        {
+            "image": "pfp9.png",
+            "caption": "Profile picture 9"
+        },
+        {
+            "image": "pfp10.png",
+            "caption": "Profile picture 10"
+        }
+    ],
+    "slumber-the-sea": [
+        {
+            "image": "enviro-concept.jpg",
+            "caption": "Initial environment concept art exploring different dream settings"
+        },
+        {
+            "image": "enviro-concept2",
+            "caption": "Environment concept art exploring submerged city and urban escapism"
+        },
+        {
+            "image": "chemist_neutral.png",
+            "caption": "Neutral still of chemist"
+        },
+        {
+            "image": "chemist_distressed.png",
+            "caption": "Distressed still of chemist"
+        },
+        {
+            "image": "chemist_happy.png",
+            "caption": "Happy still of chemist"
+        },
+        {
+            "image": "chef_neutral.png",
+            "caption": "Neutral still of chef"
+        },
+        {
+            "image": "chef_distressed.png",
+            "caption": "Distressed still of chef"
+        },
+        {
+            "image": "chef_happy.png",
+            "caption": "Happy still of chef"
+        },
+        {
+            "image": "artist_neutral.png",
+            "caption": "Neutral still of artist"
+        },
+        {
+            "image": "artist_distressed.png",
+            "caption": "Distressed still of artist"
+        },
+        {
+            "image": "artist_happy.png",
+            "caption": "Happy still of artist"
+        },
+        {
+            "image": "battle-diagram.jpg",
+            "caption": "Diagram visualizing dyanmics of combat"
+        },
+        {
+            "image": "ui-textbox1.png",
+            "caption": "Initial design for UI box"
+        },
+        {
+            "image": "ui-textbox2.png",
+            "caption": "2nd iteration for UI box, used for dialogue and text"
+        },
+        {
+            "image": "ui-textbox3.png",
+            "caption": "3rd iteration for UI box, used for battle UI"
+        }
     ]
 }
