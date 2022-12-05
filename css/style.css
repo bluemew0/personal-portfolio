@@ -89,6 +89,7 @@ main {
     left: 0;
     background-color: var(--light-accent);
     position: fixed;
+    width: 300px;
     height: 100%;
     max-width: 350px;
     z-index: 1;
@@ -96,13 +97,13 @@ main {
 }
 
 #profile {
-    margin-top: 50px;
+    margin-top: 5%;
 }
 
 #profile img {
     object-fit: cover;
-    width: 200px;
-    height: 200px;
+    width: 10rem;
+    height: 10rem;
     position: relative;
     background-color: var(--background-color);
     border: solid var(--background-color) 8px;
@@ -114,7 +115,7 @@ main {
 
 /* NAVIGATION */
 #nav {
-    padding: 50px 0;
+    padding: 5% 0;
 }
 
 #nav a {
@@ -145,9 +146,8 @@ main {
 
 .socials {
     color: var(--dark-accent);
-    font-size: 30px;
+    font-size: 1.5rem;
     margin: 10px;
-    bottom: 100vh;
 }
 
 /* MAIN */
