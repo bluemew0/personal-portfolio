@@ -70,19 +70,6 @@ html {
     background: var(--background-color);
 }
 
-main {
-    background: var(--background-color);
-}
-
-.circle {
-    background-color: var(--light-accent);
-    bottom: 50%;
-    border-radius: 0 0 500px 500px;
-    width: 800px;
-    height: 400px;
-}
-
-
 /* SIDE BAR */
 #side-bar {
     top: 0;
@@ -91,7 +78,9 @@ main {
     position: fixed;
     width: 300px;
     height: 100%;
+    width: 20%;
     max-width: 350px;
+    min-width: 250px;
     z-index: 1;
     overflow-x: hidden;
 }
@@ -150,16 +139,38 @@ main {
     margin: 10px;
 }
 
-/* MAIN */
-.main {
-    left: 400px;
+main {
+    background: var(--background-color);
     margin: 0 100px;
     width: 100%;
     padding: 5% 0;
+    position: relative;
+    left: 10%;
+}
+
+@media (max-width: 1800px) {
+    /* .main {
+        position: relative;
+        left: 10%;
+    } */
+}
+
+@media (max-width: 1500px) {
+    /* .main {
+        position: relative;
+        left: 20%;
+    } */
+    /* #side-bar {
+        max-width: 250px;
+    } */
 }
 
 @media (max-width: 900px) {
     #side-bar {
         visibility: hidden;
+        width: 0;
+    }
+    .main {
+        left: 0;
     }
 }

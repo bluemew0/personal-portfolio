@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Josefin+Sans&family=PT+Serif&family=Philosopher&display=swap');
 
-.main {
-    padding-top: 0 !important;
-}
 
 /* CIRCLE */
 .circle {
-    margin: 0 auto;
+    background-color: var(--light-accent);
+    bottom: 50%;
+    border-radius: 0 0 500px 500px;
+    width: 800px;
+    height: 400px;
+    margin: 0 10%;
     top: 0;
-    left: calc(80vw / 2);
     margin-bottom: 100px;
     background-color: var(--light-accent);
     transition: background-color 0.5s ease-out;
@@ -39,7 +40,9 @@
     background-color: var(--light-accent);
     border-radius: 15px;
     padding: 15px;
-    height: 750px;
+    min-height: 750px;
+    height: 20%;
+    right: 5%;
 }
 
 #inventory h2 {
@@ -122,21 +125,21 @@
     padding: 0 auto;
 }
 
+main {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+
 /* MEDIA QUERIES */
-/* @media (max-width: 1200px) {
-    #pfp {
-        display: block;
-    }
-    #pfp-name {
-        display: block;
-        margin: 20px auto;
-    }
-    #pfp-title {
-        display: block;
-        margin: 20px;
-        margin-bottom: 0;
-        text-align: center;
-    }
+@media (max-width: 1800px) {
+    /* .main {
+        position: relative;
+        left: 10%;
+    } */
+}
+
+@media (max-width: 1500px) {
     #featured .card-title, #featured .card-text, #featured .btn, #featured .card-body {
         display: none;
     }
@@ -148,4 +151,30 @@
     #featured img {
         margin: 0;
     }
-} */
+
+    .circle {
+        border-radius: 0 0 500px 500px;
+        width: 600px;
+        height: 300px;
+    }
+    .circle p {
+        font-size: 13px;
+    }
+    .circle h2 {
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 900px) {
+    #inventory {
+        visibility: hidden;
+    }
+
+    #featured {
+        width: 100%;
+    }
+
+    .circle {
+        margin: 0 auto;
+    }
+}
