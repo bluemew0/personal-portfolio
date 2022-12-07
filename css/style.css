@@ -142,10 +142,10 @@ html {
 main {
     background: var(--background-color);
     margin: 0 100px;
-    width: 100%;
+    max-width: 75vw;
     padding: 5% 0;
     position: relative;
-    left: 10%;
+    left: 15%;
 }
 
 @media (max-width: 1800px) {

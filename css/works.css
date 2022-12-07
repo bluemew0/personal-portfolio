@@ -6,6 +6,7 @@ p {
 #page-nav {
     right: 0;
     position: fixed;
+    top: 20px;
     width: 15%;
     height: 100vh;
     margin: 0 10px;
@@ -104,7 +105,9 @@ p {
 }
 
 @media (max-width: 1500px) {
-
+    #page-nav {
+        width: 18%;
+    }
 }
 
 @media (max-width: 900px) {
