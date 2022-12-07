@@ -16,6 +16,7 @@ fetch("../js/works.json")
 
 /* FUNCTIONS */
 function createGalleryImgs(imgJSON) {
+    // finds if #foldername-gallery exists in html and creates a gallery in that div 
     for (let gallery in imgJSON) {
         var index = 0; // to help keep track of gallery image indexes
         var divEl = $("#"+gallery+"-gallery");
@@ -27,6 +28,7 @@ function createGalleryImgs(imgJSON) {
 }
 
 function createCarouselImgs(imgJSON) {
+    // finds if target modal exists and creates/appends carousel for associated gallery in #modals
     var modalsEl = $("#modals");
     for (let gallery in imgJSON) {
         var index = 0;

@@ -1,5 +1,5 @@
 p {
-    font-size: 15px;
+    font-size: 18px;
 }
 
 /* PAGE NAV BAR */
@@ -13,10 +13,13 @@ p {
     margin: 0 10px;
     text-align: left;
     padding: 10px;
+    padding-top: 0;
 }
 
-#page-nav h2 {
+#page-nav h3:last-of-type {
     padding: 0;
+    margin: 0;
+    margin-top: 30px;
 }
 
 #page-nav li {
@@ -27,6 +30,11 @@ p {
     margin: 20px auto; 
     box-shadow: var(--light-accent) -5px 5px 0 0;
     transition: background-color 0.3s ease;
+}
+
+#page-nav li:first-of-type {
+    padding-top: 3px;
+    margin-top: 5px;
 }
 
 #page-nav li:hover {
@@ -43,6 +51,10 @@ p {
 
 #page-nav li a:hover {
     color: var(--emphasis-color) !important;
+}
+
+#page-nav ul {
+    margin-bottom: 20px;
 }
 
 /* GALLERY */
