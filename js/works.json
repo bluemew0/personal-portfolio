@@ -202,5 +202,22 @@
         "rosie.jpg",
         "tarana-burke.jpg",
         "amber-liu.jpg"
+    ],
+    "phoenix": [
+        "sheet-colored.jpg",
+        "sheet.jpg",
+        "pose-reference.jpg",
+        "body.png",
+        "face-sculpt.png",
+        "face-repo.png",
+        "hair.png",
+        "hair-wireframe.png",
+        "material-render.png",
+        "material-render2.png",
+        "cardiganMat.png",
+        "earringmat.png",
+        "pose.png",
+        "final-walk-1.gif",
+        "final-walk-2.gif"
     ]
 }
