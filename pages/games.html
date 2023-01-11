@@ -13,11 +13,24 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Games</title>
     </head>
+    <script>
+        function toggleVisibility(element, visibility) {
+            $(element).css('visibility', visibility);
+            $(element+' .x').css('visibility', visibility);
+        }
+    </script>
     <body>
         <main>
             <div class="container">
                 <!-- SIDE BAR -->
+                <span id="header" class="mobile">
+                    <i class="bi bi-list" onclick="toggleVisibility('#side-bar', 'visible')"></i>
+                    <i class="bi bi-caret-down" onclick="toggleVisibility('#page-nav', 'visible')"></i>
+                </span>
                 <div class="gx-3 d-block flex-column p-3 text-center" id="side-bar">
+                    <span class="mobile">
+                        <i class="bi bi-x x" onclick="toggleVisibility('#side-bar', 'hidden')"></i>
+                    </span>
                     <section id="profile">
                         <img class="img-thumbnail rounded-circle" src="../img/pfp.jpg">
                         <h2 class="fredoka-one my-2">Ashley Lu</h2>
@@ -28,7 +41,7 @@
                             <a href="../index.html" class="fredoka-one"><li>Home</li></a>
                             <a href="" class="fredoka-one"><li class="active">Games</li></a>
                             <a href="works.html" class="fredoka-one"><li>Art</li></a>
-                            <a href="design.html" class="fredoka-one"><li>Web Design</li></a>
+                            <!-- <a href="design.html" class="fredoka-one"><li>Web Design</li></a> -->
                             <a href="contact.html" class="fredoka-one"><li>Contact</li></a>
                         </ul>
                     </section>
@@ -44,20 +57,24 @@
                     <!-- PAGE NAV BARS -->
                     <div class="col d-block" id="page-nav">
                         <nav>
-                            <h4 class="fredoka-one">Collaborations</h4>
+                            <h4 class="fredoka-one">Collaborations
+                                <span class="mobile">
+                                    <i class="bi bi-x x" onclick="toggleVisibility('#page-nav', 'hidden')"></i>
+                                </span>
+                            </h4>
                             <ul class="fredoka-one list-unstyled">
-                                <li><a href="#lhr">Love Heist Romeo</a></li>
-                                <li><a href="#foy">Fragments of You</a></li>
-                                <li><a href="#sts">Slumber the Sea</a></li>
-                                <li><a href="#heart-breakout">HEART ♥ BREAKOUT</a></li>
-                                <li><a href="#doorway-effect">Doorway Effect</a></li>
-                                <li><a href="#suscord">Suscord IdleModerator</a></li>
-                                <li><a href="#one-button">One Button Games</a></li>
+                                <li><a href="../games/love-heist-romeo/index.html">Love Heist Romeo</a></li>
+                                <li><a href="../games/fragments-of-you/index.html">Fragments of You</a></li>
+                                <li><a href="../games/slumber-the-sea/index.html">Slumber the Sea</a></li>
+                                <li><a href="../games/heart-breakout/index.html">HEART ♥ BREAKOUT</a></li>
+                                <li><a href="../games/doorway-effect/index.html">Doorway Effect</a></li>
+                                <li><a href="../games/suscord/index.html">Suscord IdleModerator</a></li>
+                                <li><a href="../games/one-button/index.html">One Button Games</a></li>
                             </ul>
                             <h4 class="fredoka-one">Individual</h4>
                             <ul class="fredoka-one list-unstyled">
-                                <li><a href="#rocket-patrol">Modded Rocket Patrol</a></li>
-                                <li><a href="#mock">Mock Game</a></li>
+                                <li><a href="../games/modded-rp/index.html">Modded Rocket Patrol</a></li>
+                                <li><a href="../games/mockup/index.html">Mock Game</a></li>
                             </ul>
                         </nav>
                     </div>

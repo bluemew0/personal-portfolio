@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../../css/style.css">
+        <link rel="stylesheet" type="text/css" href="../../css/games.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <link rel="icon" type="image/x-icon" href="img/favicon.png">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script type="module" src="../../js/games.js" defer></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Games</title>
+    </head>
+    <script>
+        function toggleVisibility(element, visibility) {
+            $(element).css('visibility', visibility);
+            $(element+' .x').css('visibility', visibility);
+        }
+    </script>
+    <body>
+        <main>
+            <div class="container">
+                <!-- SIDE BAR -->
+                <span id="header" class="mobile">
+                    <i class="bi bi-list" onclick="toggleVisibility('#side-bar', 'visible')"></i>
+                    <i class="bi bi-caret-down" onclick="toggleVisibility('#page-nav', 'visible')"></i>
+                </span>
+                <div class="gx-3 d-block flex-column p-3 text-center" id="side-bar">
+                    <span class="mobile">
+                        <i class="bi bi-x x" onclick="toggleVisibility('#side-bar', 'hidden')"></i>
+                    </span>
+                    <section id="profile">
+                        <img class="img-thumbnail rounded-circle" src="../../img/pfp.jpg">
+                        <h2 class="fredoka-one my-2">Ashley Lu</h2>
+                        <h6 class="itim dark-accent">Illustrator ✦ Game Artist</h6>
+                    </section>
+                    <section id="navigation">
+                        <ul class="list-unstyled" id="nav">
+                            <a href="../../index.html" class="fredoka-one"><li>Home</li></a>
+                            <a href="../../pages/games.html" class="fredoka-one"><li class="active">Games</li></a>
+                            <a href="../../pages/works.html" class="fredoka-one"><li>Art</li></a>
+                            <!-- <a href="../../pages/design.html" class="fredoka-one"><li>Web Design</li></a> -->
+                            <a href="../../pages/contact.html" class="fredoka-one"><li>Contact</li></a>
+                        </ul>
+                    </section>
+                    <section id="socials">
+                        <a target="_blank" href="https://www.linkedin.com/in/luashhley/"><i class="bi bi-linkedin socials"></i></a>
+                        <a target="_blank" href="https://www.instagram.com/bluemew0/"><i class="bi bi-instagram socials"></i></a>
+                        <a target="_blank" href="https://twitter.com/bluemew0"><i class="bi bi-twitter socials"></i></a>
+                        <a target="_blank" href="https://www.twitch.tv/bluemew0"><i class="bi bi-twitch socials"></i></a>
+                    </section>
+                </div>
+                <!-- MAIN CONTENT -->
+                <div class="col main">
+                    <!-- PAGE NAV BARS -->
+                    <div class="col d-block" id="page-nav">
+                        <nav>
+                            <h4 class="fredoka-one">
+                                Collaborations 
+                                <span class="mobile">
+                                    <i class="bi bi-x x" onclick="toggleVisibility('#page-nav', 'hidden')"></i>
+                                </span>
+                            </h4>
+                            <ul class="fredoka-one list-unstyled">
+                                <li><a href="">Love Heist Romeo</a></li>
+                                <li><a href="../fragments-of-you/index.html">Fragments of You</a></li>
+                                <li><a href="../slumber-the-sea/index.html">Slumber the Sea</a></li>
+                                <li><a href="../heart-breakout/index.html">HEART ♥ BREAKOUT</a></li>
+                                <li><a href="../doorway-effect/index.html">Doorway Effect</a></li>
+                                <li><a href="../suscord/index.html">Suscord IdleModerator</a></li>
+                                <li><a href="../one-button/index.html">One Button Games</a></li>
+                            </ul>
+                            <h4 class="fredoka-one">Individual</h4>
+                            <ul class="fredoka-one list-unstyled">
+                                <li><a href="../modded-rp/index.html">Modded Rocket Patrol</a></li>
+                                <li><a href="../mockup/index.html">Mock Up Game</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- GALLERIES -->
+                    <div class="col auto" id="galleries">
+                        <!-- LOVE HEIST ROMEO -->
+                        <h2 class="fredoka-one py-3">Love Heist Romeo</h2>
+                        <img id="hero" src="../../img/games/love-heist-romeo/banner.jpg">
+                        <p class="itim">Love Heist Romeo is a 2D narrative-driven exploration game about a bunny named Romeo on his quest for True Love. Follow a wizard’s advice down a rabbit hole to interact with cute animals, collect magical orbs, and discover doors to whimsically colorful worlds!</p>
+                        <p class="itim ">I worked on Love Heist Romeo as an environment artist, drawing the bases for the different neighborhoods in the game based on the level designer's layouts. I also helped with some of the promotion art for the game and refining some of the decor pieces done by our other environment artist, Lucky Medikonda. This is a 2021 senior capstone project at UCSC.</p>
+                        <p class="itim ">Below are drafts, concepts, final artwork, and game screenshots of my contributions.</p>
+                        <p class="itim">You can find more information and play the game <a target="_blank" href="https://loveheistromeo.itch.io/love-heist-romeo">here</a>.</p>
+                        <div class="row gallery" data-bs-toggle="modal" data-bs-target="#love-heist-romeo-modal" id="love-heist-romeo-gallery"></div>
+                    <!-- MODALS -->
+                    <div id="modals"></div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

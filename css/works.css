@@ -113,12 +113,26 @@ p {
 @media (max-width: 900px) {
     #page-nav {
         visibility: hidden;
+        top: 0;
+        padding: 20px;
+        width: 70%;
+        height: 100%;
+        background-color: var(--background-color);
+        border-left: solid 3px var(--dark-accent);
+    }
+
+    #page-nav li {
+        margin: 10px;
+    }
+
+    #page-nav .x {
+        right:0;
     }
     .main {
         left: 0;
-        width: 80%;
     }
     section {
         width: 100%;
     }
+    
 }

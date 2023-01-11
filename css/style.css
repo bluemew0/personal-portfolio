@@ -70,6 +70,10 @@ html {
     background: var(--background-color);
 }
 
+i:hover {
+    cursor: pointer;
+}
+
 /* SIDE BAR */
 #side-bar {
     top: 0;
@@ -100,6 +104,28 @@ html {
 
 #sidebar h6 {
     font-size: 16px;
+}
+
+/* MOBILE ICONS */
+.x, .bi-caret-down, .bi-list {
+    margin: 0;
+    font-size: 20px;
+    color: var(--dark-accent);
+    display: inline-flex;
+    opacity: 1;
+}
+
+.x {
+    float: right;
+}
+
+.bi-caret-down {
+    right: 0;
+    float: right;
+}
+
+.mobile {
+    visibility: hidden;
 }
 
 /* NAVIGATION */
@@ -149,20 +175,13 @@ main {
 }
 
 @media (max-width: 1800px) {
-    /* .main {
-        position: relative;
-        left: 10%;
-    } */
+    
 }
 
-@media (max-width: 1500px) {
-    /* .main {
-        position: relative;
-        left: 20%;
-    } */
-    /* #side-bar {
-        max-width: 250px;
-    } */
+@media (min-width: 900px) {
+    #side-bar {
+        visibility: visible;
+    }
 }
 
 @media (max-width: 900px) {
@@ -170,7 +189,20 @@ main {
         visibility: hidden;
         width: 0;
     }
-    .main {
+    .main{
         left: 0;
+        padding: 0;
+        width: 100%;
+        display: flex;
+    }
+    main {
+        margin: 0;
+        padding: 0;
+    }
+    #header {
+        visibility: visible;
+        display: block;
+        padding: 10px;
+        border-bottom: solid 1px gray;
     }
 }

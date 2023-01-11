@@ -13,11 +13,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Home</title>
     </head>
+    <script>
+        function toggleVisibility(element, visibility) {
+            $(element).css('visibility', visibility);
+            $(element+' .x').css('visibility', visibility);
+        }
+    </script>
     <body>
         <main>
             <div class="container text-center">
                     <!-- SIDE BAR -->
+                    <span id="header" class="mobile">
+                        <i class="bi bi-list" onclick="toggleVisibility('#side-bar', 'visible')"></i>
+                    </span>
                     <div class="gx-3 d-block flex-column flex-shrink-0 p-3" id="side-bar">
+                        <span class="mobile">
+                            <i class="bi bi-x x" onclick="toggleVisibility('#side-bar', 'hidden')"></i>
+                        </span>
                         <section id="profile">
                             <img class="img-thumbnail rounded-circle" src="img/pfp.jpg">
                             <h2 class="fredoka-one my-2">Ashley Lu</h2>
@@ -28,7 +40,7 @@
                                 <a href="" class="fredoka-one"><li class="active">Home</li></a>
                                 <a href="pages/games.html" class="fredoka-one"><li>Games</li></a>
                                 <a href="pages/works.html" class="fredoka-one"><li>Art</li></a>
-                                <a href="pages/design.html" class="fredoka-one"><li>Web Design</li></a>
+                                <!-- <a href="pages/design.html" class="fredoka-one"><li>Web Design</li></a> -->
                                 <a href="pages/contact.html" class="fredoka-one"><li>Contact</li></a>
                             </ul>
                         </section>
@@ -50,41 +62,32 @@
                         </div>
                         <div class="row">
                             <div class="col-6 mx-3" id="featured">
-                                <!-- <h2 class="fredoka-one">Games Experience</h2>
-                                <section id="heart-breakout">
-                                </section>
-                                <section id="heart-breakout">
-                                </section>
-                                <section id="heart-breakout">
-                                </section>
-                                <section id="heart-breakout">
-                                </section> -->
                                 <section id="featured">
                                     <h2 class="fredoka-one py-3">Featured Games</h2>
                                     <div class="container album py-2">
                                         <div class="row">
                                             <div class="col auto card">
-                                                <a href="https://bluemew0.github.io/portfolio/pages/games.html#lhr"><img class="card-img-top" src="img/games/love-heist-romeo/LHR title.png"></a>
+                                                <a href="games/love-heist-romeo/index.html"><img class="card-img-top" src="img/games/love-heist-romeo/LHR title.png"></a>
                                                 <div class="card-body">
                                                     <h4 class="card-title fredoka-one">Love Heist Romeo</h4>
                                                     <p class="card-text itim fw-normal">Love Heist Romeo is a 2D narrative-driven exploration game about a bunny named Romeo on his quest for True Love.</p>
-                                                    <a class="btn btn-primary" href="https://bluemew0.github.io/portfolio/pages/games.html#lhr">Project Page</a>
+                                                    <a class="btn btn-primary" href="games/love-heist-romeo/index.html">Project Page</a>
                                                 </div>
                                             </div>
                                             <div class="col auto card">
-                                                <a href="https://bluemew0.github.io/portfolio/pages/projects.html#foy"><img src="img/games/fragments-of-you/pink.gif"></a>
+                                                <a href="games/fragments-of-you/index.html"><img src="img/games/fragments-of-you/pink.gif"></a>
                                                 <div class="card-body">
                                                     <h4 class="card-title fredoka-one">Fragments of You</h4>
                                                     <p class="card-text itim fw-normal">Fragments of You is a platformer all about collecting the parts of your partner.</p>
-                                                    <a class="btn btn-primary" href="https://bluemew0.github.io/portfolio/pages/games.html#foy">Project Page</a>
+                                                    <a class="btn btn-primary" href="games/fragments-of-you/index.html">Project Page</a>
                                                 </div>
                                             </div>
                                             <div class="col auto card">
-                                                <a href="https://bluemew0.github.io/portfolio/pages/projects.html#heart-breakout"><img src="img/games/heart-breakout/running.gif"></a>
+                                                <a href="games/heart-breakout/index.html"><img src="img/games/heart-breakout/running.gif"></a>
                                                 <div class="card-body">
                                                     <h4 class="card-title fredoka-one">HEART ♥ BREAKOUT</h4>
                                                     <p class="card-text itim fw-normal">An endless runner to escape from your toxic lover in this surreal underworld world!</p>
-                                                    <a class="btn btn-primary" href="https://bluemew0.github.io/portfolio/pages/games.html#heart-breakout">Project Page</a>
+                                                    <a class="btn btn-primary" href="games/heart-breakout/index.html">Project Page</a>
                                                 </div>
                                             </div>
                                         </div>

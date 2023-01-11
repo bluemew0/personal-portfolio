@@ -13,11 +13,24 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Web Design</title>
     </head>
+    <script>
+        function toggleVisibility(element, visibility) {
+            $(element).css('visibility', visibility);
+            $(element+' .x').css('visibility', visibility);
+        }
+    </script>
     <body>
         <main>
             <div class="container">
                 <!-- SIDE BAR -->
+                <span id="header" class="mobile">
+                    <i class="bi bi-list" onclick="toggleVisibility('#side-bar', 'visible')"></i>
+                    <i class="bi bi-caret-down" onclick="toggleVisibility('#page-nav', 'visible')"></i>
+                </span>
                 <div class="gx-3 d-block flex-column flex-shrink-0 p-3 text-center" id="side-bar">
+                    <span class="mobile">
+                        <i class="bi bi-x x" onclick="toggleVisibility('#side-bar', 'hidden')"></i>
+                    </span>
                     <section id="profile">
                         <img class="img-thumbnail rounded-circle" src="../img/pfp.jpg">
                         <h2 class="fredoka-one my-2">Ashley Lu</h2>
