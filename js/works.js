@@ -5,7 +5,7 @@
 
 // code references: https://www.tutorialspoint.com/how-to-import-local-json-file-data-to-my-javascript-variable
 // https://css-tricks.com/creating-a-modal-image-gallery-with-bootstrap-components/#top-of-site
-fetch("../js/works.json")
+fetch("../../js/works.json")
 .then(response => {
     return response.json();
 })
@@ -21,7 +21,7 @@ function createGalleryImgs(imgJSON) {
         var index = 0; // to help keep track of gallery image indexes
         var divEl = $("#"+gallery+"-gallery");
         for (let image of imgJSON[gallery]) {
-            divEl.append("<div class='col-12 col-sm-6 col-md-3'><img class='w-100' src='../img/artwork/"+gallery+"/"+image+"' data-bs-target='#"+gallery+"-carousel' data-bs-slide-to='"+index+"'></div>");
+            divEl.append("<div class='col-6 col-md-4 col-lg-3'><img class='w-100' src='../../img/artwork/"+gallery+"/"+image+"' data-bs-target='#"+gallery+"-carousel' data-bs-slide-to='"+index+"'></div>");
             index += 1;
         }
     }
@@ -45,7 +45,7 @@ function createCarouselImgs(imgJSON) {
             } else {
                 var l6 = "<div class='carousel-item'>";
             }
-            var l7 = "<img class='d-block w-100' src='../img/artwork/"+gallery+"/"+image+"' data-bs-target='#"+gallery+"-carousel'></div>"
+            var l7 = "<img class='d-block w-100' src='../../img/artwork/"+gallery+"/"+image+"' data-bs-target='#"+gallery+"-carousel'></div>"
             html += l6;
             html += l7;
             index += 1;

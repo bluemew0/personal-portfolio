@@ -2,16 +2,16 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="../../css/style.css">
-        <link rel="stylesheet" type="text/css" href="../../css/games.css">
+        <link rel="stylesheet" type="text/css" href="../../css/works.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-        <link rel="icon" type="image/x-icon" href="img/favicon.png">
+        <link rel="icon" type="image/x-icon" href="../img/favicon.png">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-        <script type="module" src="../../js/games.js" defer></script>
+        <script type="module" src="../../js/works.js" defer></script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Games</title>
+        <title>Works</title>
     </head>
     <script>
         function toggleVisibility(element, visibility) {
@@ -27,7 +27,7 @@
                     <i class="bi bi-list" onclick="toggleVisibility('#side-bar', 'visible')"></i>
                     <i class="bi bi-caret-down" onclick="toggleVisibility('#page-nav', 'visible')"></i>
                 </span>
-                <div class="gx-3 d-block flex-column p-3 text-center" id="side-bar">
+                <div class="gx-3 d-block flex-column flex-shrink-0 p-3 text-center" id="side-bar">
                     <span class="mobile">
                         <i class="bi bi-x x" onclick="toggleVisibility('#side-bar', 'hidden')"></i>
                     </span>
@@ -39,9 +39,9 @@
                     <section id="navigation">
                         <ul class="list-unstyled" id="nav">
                             <a href="../../" class="fredoka-one"><li>Home</li></a>
-                            <a href="../../pages/games.html" class="fredoka-one"><li class="active">Games</li></a>
-                            <a href="../../art/digital-art/" class="fredoka-one"><li>Art</li></a>
-                            <!-- <a href="../../pages/design.html" class="fredoka-one"><li>Web Design</li></a> -->
+                            <a href="../../pages/games.html" class="fredoka-one"><li>Games</li></a>
+                            <a href="../digital-art/" class="fredoka-one"><li class="active">Art</li></a>
+                            <!-- <a href="design.html" class="fredoka-one"><li>Web Design</li></a> -->
                             <a href="../../pages/contact.html" class="fredoka-one"><li>Contact</li></a>
                         </ul>
                     </section>
@@ -56,41 +56,33 @@
                 <div class="col main">
                     <!-- PAGE NAV BARS -->
                     <div class="col d-block" id="page-nav">
-                        <nav>
-                            <h4 class="fredoka-one">
-                                Collaborations 
-                                <span class="mobile">
+                        <h4 class="fredoka-one">Art
+                            <span class="mobile">
                                     <i class="bi bi-x x" onclick="toggleVisibility('#page-nav', 'hidden')"></i>
-                                </span>
-                            </h4>
+                            </span>
+                        </h4>
+                        <nav>
                             <ul class="fredoka-one list-unstyled">
-                                <li><a href="../love-heist-romeo/">Love Heist Romeo</a></li>
-                                <li><a href="">Fragments of You</a></li>
-                                <li><a href="../slumber-the-sea/">Slumber the Sea</a></li>
-                                <li><a href="../heart-breakout/">HEART ♥ BREAKOUT</a></li>
-                                <li><a href="../doorway-effect/">Doorway Effect</a></li>
-                                <li><a href="../suscord/">Suscord IdleModerator</a></li>
-                            </ul>
-                            <h4 class="fredoka-one">Individual</h4>
-                            <ul class="fredoka-one list-unstyled">
-                                <li><a href="../modded-rp/">Modded Rocket Patrol</a></li>
-                                <li><a href="../mockup/">Mock Up Game</a></li>
+                                <li><a href="../digital-art/">Digital Art</a></li>
+                                <li><a href="../2d-animation/">2D Animation</a></li>
+                                <li><a href="../3d-art/">3D Art</a></li>
+                                <li><a href="">Traditional Art</a></li>
+                                <li><a href="../designs/">Designs</a></li>
+                                <li><a href="../concentrations/">Concentrations</a></li>
                             </ul>
                         </nav>
                     </div>
                     <!-- GALLERIES -->
-                    <div class="col auto" id="galleries">
-                        <!-- FRAGMENTS OF YOU -->
-                        <h2 class="fredoka-one py-3">Fragments of You</h2>
-                        <iframe id="hero" width="560" height="315" src="https://www.youtube.com/embed/L2--LyGeiHQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        <p class="itim">Fragments of You is a platformer all about collecting the parts of your partner. While going about collecting these parts, the player will need to sacrifice their own parts to unlock those of their partners. In losing parts the player will also lose certain movement options associated with the parts lost.</p>
-                        <p class="itim ">This is a 2022 senior capstone game that I helped out with as a pixel background artist. I created and designed the backgrounds using a moodboard defined by the senior creative team. You can see my concept art, drafts, and finished products down below.</p>
-                        <p class="itim">You can find more information <a target="_blank" href="https://jwake0.wixsite.com/fragments-of-you">here</a> and play the game <a target="_blank" href="https://skspy.itch.io/fragments-of-you">here</a>.</p>
-                        <div class="row gallery" data-bs-toggle="modal" data-bs-target="#fragments-of-you-modal" id="fragments-of-you-gallery"></div>
+                    <div class="col" id="galleries">
+                        <!-- TRADITIONAL ART -->
+                        <h2 class="fredoka-one py-3">Traditional Art</h2>
+                        <p class="itim">Made with different mediums: acrylic, graphite, oil, watercolor, gouache.</p>
+                        <div class="row gallery" data-bs-toggle="modal" data-bs-target="#traditional-modal" id="traditional-gallery">
+                        </div>
                     </div>
-                    <!-- MODALS -->
-                    <div id="modals"></div>
                 </div>
+                <!-- MODALS -->
+                <div id="modals"></div>
             </div>
         </main>
     </body>
