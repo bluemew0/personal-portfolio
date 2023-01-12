@@ -9,7 +9,8 @@
     width: 800px;
     height: 400px;
     margin: 0 10%;
-    top: 0;
+    position: relative;
+    top: -30px;
     margin-bottom: 100px;
     background-color: var(--light-accent);
     transition: background-color 0.5s ease-out;
@@ -70,10 +71,6 @@
     margin: 10px;
     object-fit: cover;
     width: 90%;
-}
-
-#featured .card:first-of-type img {
-    margin-top: 18px;
 }
 
 #featured p {
@@ -179,6 +176,7 @@ main {
         border-radius: 0 0 300px 300px;
         width: 100%;
         height: 275px;
+        top: 0;
     }
     .circle h2 {
         padding: 10px 0;
@@ -193,5 +191,11 @@ main {
         border: none;
         border-top: 0;
         transition: background-color 0.5s ease-out;
+    }
+}
+
+@media (max-width: 450px) {
+    .circle {
+        height: 350px;
     }
 }

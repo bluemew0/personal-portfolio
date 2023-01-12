@@ -693,5 +693,67 @@
             "image": "bg-tile.png",
             "caption": "Background tile for the game"
         }
+    ],
+    "pencils-down":[
+        {
+            "image": "guy.png",
+            "caption": "Title screen illustrated by Issy Wong"
+        },
+        {
+            "image": "concept-art.jpg",
+            "caption": "Concept art for enemies and items and story thumbnails by me"
+        },
+        {
+            "image": "wake-up-boy.png",
+            "caption": "Cutscene 1 illustrated by me"
+        },
+        {
+            "image": "taking-test.png",
+            "caption": "Cutscene 2 illustrated by me"
+        }
+    ],
+    "flick-it":[
+        {
+            "image": "pitch.png",
+            "caption": "Pitch concept"
+        },
+        {
+            "image": "flaming-rocket.png",
+            "caption": "Rocket asset"
+        },
+        {
+            "image": "dead-rocket.png",
+            "caption": "Destroyed rocket asset"
+        },
+        {
+            "image": "meteor.png",
+            "caption": "Meteor asset"
+        },
+        {
+            "image": "bg.png",
+            "caption": "Background"
+        }
+    ],
+    "digging-doug":[
+        {
+            "image": "corgi-idle.gif",
+            "caption": "Idle animation"
+        },
+        {
+            "image": "corgi-run.gif",
+            "caption": "Running animation"
+        },
+        {
+            "image": "corgi-dig.gif",
+            "caption": "Digging animation"
+        },
+        {
+            "image": "digging.gif",
+            "caption": "Hole digging animation"
+        },
+        {
+            "image": "hole-spritesheet.png",
+            "caption": "Animation spritesheet for the hole"
+        }
     ]
 }

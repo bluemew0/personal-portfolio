@@ -174,10 +174,6 @@ main {
     left: 15%;
 }
 
-@media (max-width: 1800px) {
-    
-}
-
 @media (min-width: 900px) {
     #side-bar {
         visibility: visible;

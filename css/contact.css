@@ -50,3 +50,9 @@ input[type="submit"]:active {
     border-color: var(--emphasis-color);
     transition: color 0.15s ease-in-out;
 }
+
+@media (max-width: 900px) {
+    #text {
+        padding: 30px;
+    }
+}

@@ -72,6 +72,7 @@ p {
     margin-left: 10px !important;
     margin-bottom: 80px;
     padding: 10px;
+    align-items:baseline;
 }
 
 .gallery img {
