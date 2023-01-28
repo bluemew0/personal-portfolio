@@ -755,5 +755,31 @@
             "image": "hole-spritesheet.png",
             "caption": "Animation spritesheet for the hole"
         }
+    ],
+    "project-catfish":[
+        {
+            "image": "enviro-moodboard.jpg",
+            "caption": "Moodboard exploring environment styles and colors"
+        },
+        {
+            "image": "alt-style-moodboard.png",
+            "caption": "Moodboard exploring an alternative style"
+        },
+        {
+            "image": "ui-moodboard.jpg",
+            "caption": "Moodboard exploring UI styles"
+        },
+        {
+            "image": "enviro-mockup-1.png",
+            "caption": "Thumbnails exploring ideas for our first environment and a mockup of the game"
+        },
+        {
+            "image": "enviro-mockup-2.png",
+            "caption": "Alternative colors for thumbnails and mockup"
+        },
+        {
+            "image": "enviro-mockup-3.png",
+            "caption": "B/W version to showcase the low contrast style"
+        }
     ]
 }
