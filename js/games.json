@@ -770,16 +770,36 @@
             "caption": "Moodboard exploring UI styles"
         },
         {
-            "image": "enviro-mockup-1.png",
+            "image": "enviro1-mockup-1.png",
             "caption": "Thumbnails exploring ideas for our first environment and a mockup of the game"
         },
         {
-            "image": "enviro-mockup-2.png",
+            "image": "enviro1-mockup-2.png",
             "caption": "Alternative colors for thumbnails and mockup"
         },
         {
-            "image": "enviro-mockup-3.png",
+            "image": "enviro1-mockup-3.png",
             "caption": "B/W version to showcase the low contrast style"
+        },
+        {
+            "image": "enviro1-moodboard.png",
+            "caption": "Moodboard and color palette for Environment 1"
+        },
+        {
+            "image": "enviro2-moodboard.png",
+            "caption": "Moodboard and color palette for Environment 2"
+        },
+        {
+            "image": "enviro3-moodboard.jpg",
+            "caption": "Moodboard and color palette for Environment 3"
+        },
+        {
+            "image": "enviro-mockup.png",
+            "caption": "Environment mockup based on our current environment style direction"
+        },
+        {
+            "image": "enviro-breakdown.png",
+            "caption": "Breakdown of how any given scene might be composed"
         }
     ]
 }
