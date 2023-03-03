@@ -756,7 +756,11 @@
             "caption": "Animation spritesheet for the hole"
         }
     ],
-    "project-catfish":[
+    "ocean-odyssey":[
+        {
+            "image": "icon.png",
+            "caption": "Icon for the game"
+        },
         {
             "image": "enviro-moodboard.jpg",
             "caption": "Moodboard exploring environment styles and colors"
@@ -800,6 +804,78 @@
         {
             "image": "enviro-breakdown.png",
             "caption": "Breakdown of how any given scene might be composed"
+        },
+        {
+            "image": "enviro-props.png",
+            "caption": "Exploring different prop style variations"
+        },
+        {
+            "image": "calamar-designs-1.png",
+            "caption": "King Calamar Concepts"
+        },
+        {
+            "image": "calamar-designs-2.png",
+            "caption": "King Calamar Concepts"
+        },
+        {
+            "image": "calamar-designs-3.png",
+            "caption": "King Calamar Concepts"
+        },
+        {
+            "image": "calamar-designs-4.png",
+            "caption": "King Calamar Concepts"
+        },
+        {
+            "image": "calamar-mockup.png",
+            "caption": "Mockup of King Calamar boss battle"
+        },
+        {
+            "image": "calamar-spritesheet.png",
+            "caption": "King Calamar Spritesheet"
+        },
+        {
+            "image": "tree.png",
+            "caption": "Tree prop"
+        },
+        {
+            "image": "tree2.png",
+            "caption": "Tree prop"
+        },
+        {
+            "image": "can.png",
+            "caption": "Can prop"
+        },
+        {
+            "image": "can2.png",
+            "caption": "Can prop"
+        },
+        {
+            "image": "bag.png",
+            "caption": "Bag prop"
+        },
+        {
+            "image": "bag2.png",
+            "caption": "Bag prop"
+        },
+        {
+            "image": "small-succulents.png",
+            "caption": "Small succulent prop"
+        },
+        {
+            "image": "succulents.png",
+            "caption": "Succulent prop"
+        },
+        {
+            "image": "grass.png",
+            "caption": "Grass prop"
+        },
+        {
+            "image": "fence.png",
+            "caption": "Fence prop"
+        },
+        {
+            "image": "single-fence.png",
+            "caption": "Single fence prop"
         }
     ]
 }
