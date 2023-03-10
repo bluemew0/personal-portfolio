@@ -832,6 +832,30 @@
         {
             "image": "calamar-spritesheet.png",
             "caption": "King Calamar Spritesheet"
+        },
+        {
+            "image": "wave.png",
+            "caption": "Wave asset for ocean base"
+        },
+        {
+            "image": "water.png",
+            "caption": "Ocean base"
+        },
+        {
+            "image": "sand.jpg",
+            "caption": "Sand base"
+        },
+        {
+            "image": "lab.png",
+            "caption": "Lab base"
+        },
+        {
+            "image": "intro-1.PNG",
+            "caption": "Intro Cutscene 1 - Collaboration with Issy Wong"
+        },
+        {
+            "image": "intro-2.PNG",
+            "caption": "Intro Cutscene 2 - Collaboration with Issy Wong"
         }
     ]
 }
