@@ -846,6 +846,10 @@
             "caption": "Sand base"
         },
         {
+            "image": "sky.PNG",
+            "caption": "Sky tile"
+        },
+        {
             "image": "lab.png",
             "caption": "Lab base"
         },
@@ -856,6 +860,22 @@
         {
             "image": "intro-2.PNG",
             "caption": "Intro Cutscene 2 - Collaboration with Issy Wong"
+        },
+        {
+            "image": "intro-3.jpg",
+            "caption": "Intro Cutscene 3 - Collaboration with Issy Wong"
+        },
+        {
+            "image": "ending-1.jpg",
+            "caption": "Ending Cutscene 1 - Collaboration with Issy Wong"
+        },
+        {
+            "image": "ending-2.jpg",
+            "caption": "Ending Cutscene 2 - Collaboration with Issy Wong"
+        },
+        {
+            "image": "ending-3.jpg",
+            "caption": "Ending Cutscene 3 - Collaboration with Issy Wong"
         }
     ]
 }
