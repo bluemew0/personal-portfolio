@@ -758,16 +758,40 @@
     ],
     "ocean-odyssey":[
         {
+            "image": "title.png",
+            "caption": "Title illustration for the game, collaboration between Ashley Lu, Ellen Kim, Lily Pham, and Rachel Trieu"
+        },
+        {
             "image": "icon.PNG",
             "caption": "Icon for the game"
         },
         {
-            "image": "screencap-1.png",
-            "caption": "Beginning of the game"
+            "image": "screenshot-1.png",
+            "caption": "Intro cutscene"
         },
         {
-            "image": "screencap-2.png",
-            "caption": "King Calamar Boss Fight"
+            "image": "screenshot-2.png",
+            "caption": "First encounter at the lab"
+        },
+        {
+            "image": "screenshot-3.png",
+            "caption": "Lab interactions"
+        },
+        {
+            "image": "screenshot-4.png",
+            "caption": "First environment hack-and-slash"
+        },
+        {
+            "image": "screenshot-5.png",
+            "caption": "First boss, King Calamar I"
+        },
+        {
+            "image": "screenshot-6.png",
+            "caption": "Second environment hack-and-slash"
+        },
+        {
+            "image": "screenshot-7.png",
+            "caption": "Second boss, Dr. Krab"
         },
         {
             "image": "enviro-moodboard.JPG",
@@ -798,14 +822,6 @@
             "caption": "Moodboard and color palette for Environment 1"
         },
         {
-            "image": "enviro2-moodboard.PNG",
-            "caption": "Moodboard and color palette for Environment 2"
-        },
-        {
-            "image": "enviro3-moodboard.jpg",
-            "caption": "Moodboard and color palette for Environment 3"
-        },
-        {
             "image": "enviro-mockup.png",
             "caption": "Environment mockup based on our current environment style direction"
         },
@@ -816,6 +832,46 @@
         {
             "image": "enviro-props.PNG",
             "caption": "Exploring different prop style variations"
+        },
+        {
+            "image": "fence.png",
+            "caption": "Decor for Environment 1"
+        },
+        {
+            "image": "single-fence.png",
+            "caption": "Decor for Environment 1"
+        },
+        {
+            "image": "can.png",
+            "caption": "Decor for Environment 1"
+        },
+        {
+            "image": "can2.png",
+            "caption": "Decor for Environment 1"
+        },
+        {
+            "image": "bag.png",
+            "caption": "Decor for Environment 1"
+        },
+        {
+            "image": "bag2.png",
+            "caption": "Decor for Environment 1"
+        },
+        {
+            "image": "succulents.png",
+            "caption": "Decor for Environment 1"
+        },
+        {
+            "image": "small-succulent.png",
+            "caption": "Decor for Environment 1"
+        },
+        {
+            "image": "single-succulent.png",
+            "caption": "Decor for Environment 1"
+        },
+        {
+            "image": "grass.png",
+            "caption": "Decor for Environment 1"
         },
         {
             "image": "calamar-designs-1.PNG",
@@ -858,8 +914,127 @@
             "caption": "Sky tile"
         },
         {
+            "image": "lab-wall.PNG",
+            "caption": "New lab wall tile"
+        },
+        {
             "image": "lab.png",
-            "caption": "Lab base"
+            "caption": "Old lab base design"
+        },
+        {
+            "image": "lab-floor.PNG",
+            "caption": "New lab floor"
+        },
+        {
+            "image": "paper.PNG",
+            "caption": "Lab decor"
+        },{
+            "image": "paper1.PNG",
+            "caption": "Lab decor"
+        },
+        {
+            "image": "frame.PNG",
+            "caption": "Lab decor"
+        },
+        {
+            "image": "door1.PNG",
+            "caption": "Lab decor"
+        },
+        {
+            "image": "door2.PNG",
+            "caption": "Lab decor"
+        },
+        {
+            "image": "portal.PNG",
+            "caption": "Lab decor"
+        },
+        {
+            "image": "portal2.PNG",
+            "caption": "Lab decor"
+        },
+        {
+            "image": "enviro2-moodboard.jpg",
+            "caption": "Moodboard and color palette for Environment 2"
+        },
+        {
+            "image": "enviro2-concept.PNG",
+            "caption": "Environment 2 Concept"
+        },
+        {
+            "image": "sea-anenome1a.PNG",
+            "caption": "Plant decor for Environment 2"
+        },
+        {
+            "image": "sea-anenome1c.PNG",
+            "caption": "Plant decor for Environment 2"
+        },
+        {
+            "image": "seaweed.PNG",
+            "caption": "Plant decor for Environment 2"
+        },
+        {
+            "image": "seaweed2a.PNG",
+            "caption": "Plant decor for Environment 2"
+        },
+        {
+            "image": "seaweed2c.PNG",
+            "caption": "Plant decor for Environment 2"
+        },
+        {
+            "image": "seaweed3a.PNG",
+            "caption": "Plant decor for Environment 2"
+        },
+        {
+            "image": "seaweed3c.PNG",
+            "caption": "Plant decor for Environment 2"
+        },
+        {
+            "image": "rock1.PNG",
+            "caption": "Rock variation 1 for Environment 2"
+        },
+        {
+            "image": "rock2.PNG",
+            "caption": "Rock variation 2 for Environment 2"
+        },
+        {
+            "image": "rock3.PNG",
+            "caption": "Rock variation 3 for Environment 2"
+        },
+        {
+            "image": "rock4.PNG",
+            "caption": "Rock variation 4 for Environment 2"
+        },
+        {
+            "image": "rock5.PNG",
+            "caption": "Rock variation 5 for Environment 2"
+        },
+        {
+            "image": "rock6.PNG",
+            "caption": "Rock variation 6 for Environment 2"
+        },
+        {
+            "image": "krab-concept.PNG",
+            "caption": "Dr. Krab boss battle concept art"
+        },
+        {
+            "image": "disco-tile.PNG",
+            "caption": "Disco tile for Dr. Krab boss battle"
+        },
+        {
+            "image": "krab-concept1.PNG",
+            "caption": "Dr. Krab concept art"
+        },
+        {
+            "image": "krab-concept2.PNG",
+            "caption": "Dr. Krab concept art"
+        },
+        {
+            "image": "krab-concept3.PNG",
+            "caption": "Dr. Krab concept art"
+        },
+        {
+            "image": "dr.krab.png",
+            "caption": "Dr. Krab final art for skeletal animation"
         },
         {
             "image": "intro-1.PNG",
@@ -874,16 +1049,32 @@
             "caption": "Intro Cutscene 3 - Collaboration with Issy Wong"
         },
         {
-            "image": "ending-1.jpg",
-            "caption": "Ending Cutscene 1 - Collaboration with Issy Wong"
+            "image": "calamar-1.jpg",
+            "caption": "King Calamar Cutscene 1 - Collaboration with Issy Wong"
         },
         {
-            "image": "ending-2.jpg",
-            "caption": "Ending Cutscene 2 - Collaboration with Issy Wong"
+            "image": "calamar-2.jpg",
+            "caption": "King Calamar Cutscene 2 - Collaboration with Issy Wong"
         },
         {
-            "image": "ending-3.jpg",
-            "caption": "Ending Cutscene 3 - Collaboration with Issy Wong"
+            "image": "calamar-3.jpg",
+            "caption": "King Calamar Cutscene 3 - Collaboration with Issy Wong"
+        },
+        {
+            "image": "krab-1.png",
+            "caption": "Dr. Krab Cutscene 1 - Collaboration with Issy Wong"
+        },
+        {
+            "image": "krab-2.png",
+            "caption": "Dr. Krab Cutscene 2 - Collaboration with Issy Wong"
+        },
+        {
+            "image": "krab-3.png",
+            "caption": "Dr. Krab Cutscene 3 - Collaboration with Issy Wong"
+        },
+        {
+            "image": "death.PNG",
+            "caption": "Miyo defeated"
         }
     ]
 }

@@ -1,5 +1,11 @@
 {
     "digital": [
+        "totk.jpg",
+        "ai.jpg",
+        "plein-air-2.PNG",
+        "plein-air-1.jpg",
+        "yukine.jpg",
+        "yato.jpg",
         "kaguya-redraw.PNG",
         "kamisama-kiss.jpg",
         "uta.jpg",
@@ -89,7 +95,7 @@
         "cmpm25-project-1.jpg",
         "cmpm25-project-2.jpg"
     ],
-    "maya":[
+    "lootbox1":[
         "lootbox-concept-art.jpg",
         "lootbox-high-and-low.jpg",
         "lootbox-high-and-low-open.jpg",
@@ -110,10 +116,39 @@
         "unity-final-2.jpg",
         "unity-final-3.jpg",
         "unity-final-4.jpg",
-        "unity-final-5.jpg",
-        "modeling-practice-1.jpg",
-        "modeling-practice-2.jpg",
-        "modeling-practice-3.jpg"
+        "unity-final-5.jpg"
+    ],
+    "lootbox2":[
+        "concept.PNG",
+        "highlow-front.jpg",
+        "highlow-back.jpg",
+        "ao.jpg",
+        "normals.jpg",
+        "sp-texture-1.jpg",
+        "sp-texture-2.jpg",
+        "sp-texture-3.jpg",
+        "sp-texture-4.jpg",
+        "sp-texture-5.jpg",
+        "sp-texture-6.jpg",
+        "sp-texture-7.jpg",
+        "unity-1.jpg",
+        "unity-2.jpg",
+        "unity-3.jpg",
+        "unity-4.jpg",
+        "unity-5.jpg",
+        "unity-6.jpg",
+        "unity-7.jpg"
+    ],"maya":[
+        "modeling-practice-1.png",
+        "modeling-practice-1a.jpg",
+        "modeling-practice-2.png",
+        "modeling-practice-3.png",
+        "modeling-practice-3a.jpg",
+        "modeling-practice-4.png",
+        "modeling-practice-4a.png",
+        "modeling-practice-4b.png",
+        "modeling-practice-4c.png",
+        "modeling-practice-4d.png"
     ],
     "traditional": [
         "malakai1.jpg",
