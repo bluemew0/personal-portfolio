@@ -159,10 +159,22 @@ i:hover {
     background: var(--background-color);
 }
 
+#socials {
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .socials {
     color: var(--dark-accent);
     font-size: 1.5rem;
     margin: 10px;
+}
+
+svg {
+    position: relative;
+    top: -5px;
+    left: 7px;
+    fill: var(--dark-accent);
 }
 
 main {
@@ -184,6 +196,11 @@ main {
     #side-bar {
         visibility: hidden;
         width: 0;
+    }
+
+    svg {
+        left: 0px;
+        top: 10px;
     }
     .main{
         left: 0;
