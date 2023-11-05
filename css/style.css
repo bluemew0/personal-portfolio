@@ -74,6 +74,10 @@ i:hover {
     cursor: pointer;
 }
 
+ul {
+    list-style: "✦ ";
+}
+
 /* SIDE BAR */
 #side-bar {
     top: 0;

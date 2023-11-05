@@ -403,7 +403,11 @@
         },
         {
             "image": "running.gif",
-            "caption": "Runner animation"
+            "caption": "Running animation"
+        },
+        {
+            "image": "runner-jump-full.gif",
+            "caption": "Running & Jumping animation"
         },
         {
             "image": "lover.gif",
