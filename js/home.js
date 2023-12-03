@@ -16,7 +16,7 @@ fetch("js/works.json")
 
 /* FUNCTIONS */
 function createGalleryImgs(imgJSON) {
-    // finds if #foldername-gallery exists in html and creates a gallery in that div 
+    // finds if #[foldername]-gallery exists in html and creates a gallery in that div 
     for (let gallery in imgJSON) {
         var index = 0; // to help keep track of gallery image indexes
         var divEl = $("#"+gallery+"-gallery");

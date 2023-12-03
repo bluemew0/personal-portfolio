@@ -164,20 +164,17 @@ ul {
 }
 
 #socials {
-    margin-right: auto;
-    margin-left: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .socials {
     color: var(--dark-accent);
     font-size: 1.5rem;
-    margin: 10px;
 }
 
 svg {
-    position: relative;
-    top: -5px;
-    left: 7px;
     fill: var(--dark-accent);
 }
 
