@@ -12,7 +12,7 @@ var mobile_icon ="<span class='mobile'>\
 var profile = "<section id='profile'>\
                     <img class='img-thumbnail rounded-circle' src='"+pathing_to_img+"img/pfp.jpg'>\
                     <h2 class='fredoka-one my-2'>Ashley Lu</h2>\
-                    <h6 class='itim dark-accent'>Illustrator ✦ Game Artist</h6>\
+                    <h6 class='text-font dark-accent'>Illustrator ✦ Game Artist</h6>\
                 </section>";
 var navigation = "<section id='navigation'>\
                         <ul class='list-unstyled' id='nav'>\
