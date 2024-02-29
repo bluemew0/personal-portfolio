@@ -19,6 +19,7 @@ var navigation = "<section id='navigation'>\
                             <a href='"+pathing_to_home+"' class='fredoka-one'><li id='home'>Home</li></a>\
                             <a href='"+pathing_to_games_contact+"games.html' class='fredoka-one'><li id='games'>Games</li></a>\
                             <a href='"+pathing_to_art+"art/digital-art/' class='fredoka-one'><li id='art'>Art</li></a>\
+                            <a href='"+pathing_to_games_contact+"contact.html' class='fredoka-one'><li id='contact'>Contact</li></a>\
                         </ul>\
                     </section>";
 var socials = "<section id='socials'>\
