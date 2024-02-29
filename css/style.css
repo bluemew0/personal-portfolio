@@ -196,7 +196,7 @@ main {
     display: inline-flex;
     font-family: "Kosugi Maru";
     background-color: var(--light-accent);
-    border-radius: 15px;
+    border-radius: 30px;
     padding: 5px 8px;
     font-size: 12px;
     margin: 5px 0;

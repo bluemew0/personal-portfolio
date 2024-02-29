@@ -1154,5 +1154,39 @@
             "image": "cursor.PNG",
             "caption": "Custom cursor"
         }
+    ],
+    "dewdrop-cafe": [
+        {
+            "image": "sc-1.png",
+            "caption": "Title screen"
+        },
+        {
+            "image": "sc-2.png",
+            "caption": "Preferences screen"
+        },
+        {
+            "image": "sc-3.png",
+            "caption": "Dialogue screen"
+        },
+        {
+            "image": "sc-4.png",
+            "caption": "Dialogue option screen"
+        },
+        {
+            "image": "logo.png",
+            "caption": "Game Logo"
+        },
+        {
+            "image": "logos.png",
+            "caption": "Logo concepting"
+        },
+        {
+            "image": "game_icons.png",
+            "caption": "Game icon concepting"
+        },
+        {
+            "image": "qmenu_icons.png",
+            "caption": "Quick menu icons"
+        }
     ]
 }

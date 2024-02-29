@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../../css/style.css">
+        <link rel="stylesheet" type="text/css" href="../../css/games.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <link rel="icon" type="image/x-icon" href="../../img/favicon.png">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script>
+            var active_page = "games";
+            // depending on what active page is, either insert class "active" to corresponding li
+            // maybe options are "home", "games", "art", and "contact" and search for li with that id?
+            var pathing_to_home = "../../"; // ex. from art, "../"
+            var pathing_to_img = "../../"; // ex. from index.html, just "../"
+            var pathing_to_games_contact = "../../pages/"; // ex. from art, "../"
+            var pathing_to_art = "../../"; // ex. from games, "../"
+
+        </script>
+        <script type="module" src="../../js/sidebar.js" defer></script>
+        <script type="module" src="../../js/games.js" defer></script>
+        <noscript>For full experience, please enable JavaScript to preview this site.</noscript>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Games</title>
+    </head>
+    <script>
+        function toggleVisibility(element, visibility) {
+            $(element).css('visibility', visibility);
+            $(element+' .x').css('visibility', visibility);
+        }
+    </script>
+    <body>
+        <main>
+            <div class="container">
+                <!-- SIDE BAR -->
+                <span id="header" class="mobile">
+                    <i class="bi bi-list" onclick="toggleVisibility('#side-bar', 'visible')"></i>
+                    <i class="bi bi-caret-down" onclick="toggleVisibility('#page-nav', 'visible')"></i>
+                </span>
+                <div class="gx-3 d-block flex-column p-3 text-center" id="side-bar">
+                </div>
+                <!-- MAIN CONTENT -->
+                <div class="col main">
+                    <!-- PAGE NAV BARS -->
+                    <div class="col d-block" id="page-nav">
+                        <nav>
+                            <h4 class="fredoka-one">
+                                Collaborations 
+                                <span class="mobile">
+                                    <i class="bi bi-x x" onclick="toggleVisibility('#page-nav', 'hidden')"></i>
+                                </span>
+                            </h4>
+                            <ul class="fredoka-one list-unstyled">
+                                <li><a href="../ocean-odyssey/">Ocean Odyssey</a></li>
+                                <li><a href="../love-heist-romeo/">Love Heist Romeo</a></li>
+                                <li><a href="../fragments-of-you/">Fragments of You</a></li>
+                                <li><a href="../slumber-the-sea/">Slumber the Sea</a></li>
+                                <li><a href="../heart-breakout/">HEART ♥ BREAKOUT</a></li>
+                                <li><a href="../suscord/">Suscord IdleModerator</a></li>
+                            </ul>
+                            <h4 class="fredoka-one">Individual</h4>
+                            <ul class="fredoka-one list-unstyled">
+                                <li><a href="../modded-rp/">Modded Rocket Patrol</a></li>
+                                <li><a href="../mockup/">Mock Up Game</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- GALLERIES -->
+                    <div class="col auto" id="galleries">
+                        <!-- DEWDROP CAFE -->
+                        <h2 class="fredoka-one py-3">Dewdrop Cafe</h2>
+                        <img src="../../img/games/dewdrop-cafe/title.png" id="hero">
+                        <p class="text-font">
+                            Inspired by the magical worlds in Studio Ghibli movies, Dewdrop Cafe tells queer stories in a fantastical world. Following the barista Kari, a trans woman, she travels the land with her mobile cafe setup and meets different characters and their personal experiences. 
+                        </p>
+                        <p class="text-font">
+                            For this game, I am working as a <span class="emphasis">UI artist and developer</span>. Some of my contributions include:
+                            <ul class="mx-5">
+                                <li class="text-font">Developing a cohesive, matching UI style guide</li>
+                                <li class="text-font">Creating screen mockups</li>
+                                <li class="text-font">Creating UI assets in Figma</li>
+                                <li class="text-font">Implementing assets into Renpy</li>
+                                <li class="text-font">Working hybrid with a team of 8 people</li>
+                            </ul>
+                        </p>
+                        <p class="text-font">This game is in progress. Links will be updated at a later date!</p>
+                        <div class="row gallery" data-bs-toggle="modal" data-bs-target="#dewdrop-cafe-modal" id="dewdrop-cafe-gallery"></div>
+                    <!-- MODALS -->
+                    <div id="modals"></div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
