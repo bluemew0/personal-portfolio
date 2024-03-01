@@ -1187,6 +1187,18 @@
         {
             "image": "qmenu_icons.png",
             "caption": "Quick menu icons"
+        },
+        {
+            "image": "title_wireframe.png",
+            "caption": "Wireframes for the title screen"
+        },
+        {
+            "image": "dialogue_wireframe.png",
+            "caption": "Wireframes for the dialogue"
+        },
+        {
+            "image": "settings_wireframe.png",
+            "caption": "Wire frames for settings"
         }
     ]
 }
