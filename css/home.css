@@ -97,6 +97,10 @@
 
 
 /* FEATURED */
+#featured-section {
+    padding-bottom: 30px;
+}
+
 #featured {
     width: 70%;
 }
@@ -129,6 +133,9 @@
     border: none;
     margin: 0 10px;
     z-index: 1;
+    border-radius: 30px;
+    background-color: var(--background-color);
+    border: solid 2px var(--light-accent);
 }
 
 #featured img {
