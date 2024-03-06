@@ -49,13 +49,6 @@ a:hover {
     transition: color 0.15s ease-in-out 0s;
 }
 
-h2 {
-    background-color: var(--light-accent);
-    border-radius: 50px;
-    padding: 10px;
-    width: 60%;
-}
-
 /* LINE ANIMATION */
 .line-animation::after {
     content: '';
@@ -188,8 +181,8 @@ svg {
 
 main {
     background: var(--background-color);
-    background-image: url("../img/background.png");
-    background-size: contain;
+    /* background-image: url("../img/background.png");
+    background-size: contain; */
     /* margin: 0 100px; */
     max-width: 82vw;
     padding: 5% 8%;

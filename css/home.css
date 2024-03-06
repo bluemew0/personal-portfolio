@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Josefin+Sans&family=PT+Serif&family=Philosopher&display=swap');
 
-
 /* CIRCLE */
 /* .circle {
     background-color: var(--light-accent);
@@ -134,8 +133,8 @@
     margin: 0 10px;
     z-index: 1;
     border-radius: 30px;
-    background-color: var(--background-color);
-    border: solid 2px var(--light-accent);
+    /* background-color: var(--background-color);
+    border: solid 2px var(--light-accent); */
 }
 
 #featured img {
