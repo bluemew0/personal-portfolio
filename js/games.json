@@ -1162,15 +1162,23 @@
         },
         {
             "image": "sc-2.png",
-            "caption": "Preferences screen"
+            "caption": "OLD preferences screen"
         },
         {
             "image": "sc-3.png",
-            "caption": "Dialogue screen"
+            "caption": "FINAL preferences screen"
         },
         {
             "image": "sc-4.png",
-            "caption": "Dialogue option screen"
+            "caption": "UI box for confirmations"
+        },
+        {
+            "image": "sc-5.png",
+            "caption": "Dialogue screen"
+        },
+        {
+            "image": "sc-6.png",
+            "caption": "Choices screen"
         },
         {
             "image": "logo.png",
