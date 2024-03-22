@@ -14,7 +14,34 @@ fetch("../../js/games.json")
     createCarouselImgs(data) 
 });
 
+var groupProjects = { 
+    "Dewdrop Cafe": "dewdrop-cafe",
+    "Ocean Odyssey": "ocean-odyssey",
+    "Love Heist Romeo": "love-heist-romeo",
+    "Slumber the Sea":"slumber-the-sea",
+    "HEART ♥ BREAKOUT": "heart-breakout",
+    "Suscord IdleModerator":"suscord"
+};
+var soloProjects = {
+    "Solemn Skies": "solemn-skies",
+    "Modded Rocket Patrol": "modded-rp"
+};
+createPageNav(groupProjects, soloProjects);
+
 /* FUNCTIONS */
+function createPageNav(GroupDictionary, SoloDictionary){ 
+    for (let project_name in GroupDictionary) {
+        var project_pathing = GroupDictionary[project_name]
+        $("#group-projects").append("<li><a href='../"+project_pathing+"'>"+project_name+"</a></li>")
+        $("#games-group-projects").append("<li><a href='../games/"+project_pathing+"'>"+project_name+"</a></li>")
+    }
+    for (let project_name in SoloDictionary) {
+        var project_pathing = SoloDictionary[project_name]
+        $("#solo-projects").append("<li><a href='../"+project_pathing+"'>"+project_name+"</a></li>")
+        $("#games-solo-projects").append("<li><a href='../games/"+project_pathing+"'>"+project_name+"</a></li>")
+    }
+ }
+
 function createGalleryImgs(imgJSON) {
     // finds if #foldername-gallery exists in html and creates a gallery in that div 
     for (let gallery in imgJSON) {

@@ -14,7 +14,24 @@ fetch("../../js/works.json")
     createCarouselImgs(data) 
 });
 
+var artPages = {
+    "Digital Art":"digital-art",
+    "2D Animation":"2d-animation",
+    "3D Art":"3d-art",
+    "Traditional Art":"traditional-art",
+    "Designs":"designs",
+    "Concentrations":"concentrations"
+};
+createPageNav(artPages);
+
 /* FUNCTIONS */
+function createPageNav(artDictionary){ 
+    for (let page_name in artDictionary) {
+        var page_pathing = artDictionary[page_name]
+        $("#page-nav-list").append("<li><a href='../"+page_pathing+"'>"+page_name+"</a></li>")
+    }
+ }
+
 function createGalleryImgs(imgJSON) {
     // finds if #foldername-gallery exists in html and creates a gallery in that div 
     for (let gallery in imgJSON) {

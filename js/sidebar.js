@@ -12,7 +12,8 @@ var mobile_icon ="<span class='mobile'>\
 var profile = "<section id='profile'>\
                     <img class='img-thumbnail rounded-circle' src='"+pathing_to_img+"img/pfp.jpg'>\
                     <h2 class='fredoka-one my-2'>Ashley Lu</h2>\
-                    <h6 class='text-font dark-accent'>Game Artist ✦ UI Artist</h6>\
+                    <h6 class='text-font'>Game Artist ✦ UI Artist</h6>\
+                    <h6 class='text-font fw-bold'>Looking to create colorful, immersive experiences through visuals.</h6>\
                 </section>";
 var navigation = "<section id='navigation'>\
                         <ul class='list-unstyled' id='nav'>\

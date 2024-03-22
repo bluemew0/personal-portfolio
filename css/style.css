@@ -24,7 +24,7 @@
 
 .fredoka {
     font-family: "Fredoka";
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .light-accent {
@@ -92,6 +92,7 @@ ul {
     min-width: 250px;
     z-index: 1;
     overflow-x: hidden;
+    align-items: center;
 }
 
 #profile {
