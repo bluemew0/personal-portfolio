@@ -1174,11 +1174,19 @@
         },
         {
             "image": "sc-5.png",
-            "caption": "Dialogue screen"
+            "caption": "Dialogue screen with Kari"
         },
         {
             "image": "sc-6.png",
-            "caption": "Choices screen"
+            "caption": "Dialogue screen with Princess Kannika"
+        },
+        {
+            "image": "sc-7.png",
+            "caption": "Dialgoue screen with Luan"
+        },
+        {
+            "image": "sc-8.png",
+            "caption": "Drink display"
         },
         {
             "image": "logo.png",
@@ -1207,6 +1215,10 @@
         {
             "image": "settings_wireframe.png",
             "caption": "Wire frames for settings"
+        },
+        {
+            "image": "kari.PNG",
+            "caption": "Fanart of Kari"
         }
     ]
 }
