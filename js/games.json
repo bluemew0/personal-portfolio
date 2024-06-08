@@ -902,11 +902,11 @@
             "caption": "King Calamar Spritesheet"
         },
         {
-            "image": "wave.png",
+            "image": "wave.jpg",
             "caption": "Wave asset for ocean base"
         },
         {
-            "image": "water.png",
+            "image": "water.jpg",
             "caption": "Ocean base"
         },
         {
@@ -926,7 +926,7 @@
             "caption": "Old lab base design"
         },
         {
-            "image": "lab-floor.PNG",
+            "image": "lab-floor.jpg",
             "caption": "New lab floor"
         },
         {
@@ -941,11 +941,11 @@
             "caption": "Lab decor"
         },
         {
-            "image": "door1.PNG",
+            "image": "door1.jpg",
             "caption": "Lab decor"
         },
         {
-            "image": "door2.PNG",
+            "image": "door2.jpg",
             "caption": "Lab decor"
         },
         {
@@ -1017,7 +1017,7 @@
             "caption": "Rock variation 6 for Environment 2"
         },
         {
-            "image": "krab-concept.PNG",
+            "image": "krab-concept.jpg",
             "caption": "Dr. Krab boss battle concept art"
         },
         {
@@ -1217,7 +1217,7 @@
             "caption": "Wire frames for settings"
         },
         {
-            "image": "kari.PNG",
+            "image": "kari.jpg",
             "caption": "Fanart of Kari"
         }
     ]
